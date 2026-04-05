@@ -1,0 +1,122 @@
+[
+    {
+        "question": "How many personal fouls does it take to foul out of an NBA game?", 
+        "reference": "six"
+    },
+    {
+        "question": "How long is the shot clock in the NBA?",                           
+        "reference": "24 seconds"
+    },
+    {
+        "question": "How many timeouts is each team allowed per game?",                 
+        "reference": "seven"
+    },
+    {
+        "question": "How many players are on each team on the court at one time?",      
+        "reference": "five"
+    },
+    {
+        "question": "What is the duration of each quarter in an NBA game?",             
+        "reference": "12 minutes"
+    },
+    {
+        "question": "How far is the free throw line from the backboard?",               
+        "reference": "15 feet"
+    },
+    {
+        "question": "How many seconds does a team have to advance the ball past half court?", 
+        "reference": "8 seconds"
+    },
+    {
+        "question": "What is the penalty for a technical foul in terms of free throws?",
+        "reference": "one free throw"
+    },
+    {
+        "question": "How many challenges does each coach get per game?",
+        "reference": "one"
+    },
+    {
+        "question": "What happens when a player commits a flagrant foul penalty 2?",   
+         "reference": "ejection"
+    },
+    {
+        "question"  : "How many personal fouls does it take to foul out of an NBA game?",
+        "reference" : "A player is disqualified from the game when he receives his sixth personal foul."
+    },
+    {
+        "question"  : "How long is the shot clock in the NBA?",
+        "reference" : "The shot clock shall start at 24 seconds unless otherwise provided in Rule 7."
+    },
+    {
+        "question"  : "How many timeouts is each team allowed per game?",
+        "reference" : "Each team is entitled to seven charged timeouts during regulation play."
+    },
+    {
+        "question"  : "How many players are on each team on the court at one time?",
+        "reference" : "Each team shall consist of five players."
+    },
+    {
+        "question"  : "What is the duration of each quarter in an NBA game?",
+        "reference" : "All periods of regulation play in the NBA will be twelve minutes."
+    },
+    {
+        "question"  : "How far is the free throw line from the backboard?",
+        "reference" : "The free throw line shall be 15 feet from the plane of the face of the backboard."
+    },
+    {
+        "question"  : "How many seconds does a team have to advance the ball past half court?",
+        "reference" : "The team on offense must bring the ball across the midcourt line within 8 seconds."
+    },
+    {
+        "question"  : "What is the penalty for a technical foul in terms of free throws?",
+        "reference" : "A technical foul is the penalty for unsportsmanlike conduct or violations by team members on the floor or seated on the bench."
+    },
+    {
+        "question"  : "How many challenges does each coach get per game?",
+        "reference" : "Each team is entitled to one Challenge per game. If a team's first Challenge is successful, the team will be awarded a second Challenge."
+    },
+    {
+        "question"  : "What happens when a player commits a flagrant foul penalty 2?",
+        "reference" : "Any player who is assessed a flagrant foul penalty 2 must be ejected and will be fined a minimum of $2,000."
+    },
+    {
+        "question"  : "How long is each overtime period in the NBA?",
+        "reference" : "All overtime periods of play will be five minutes."
+    },
+    {
+        "question"  : "How long is halftime in an NBA game?",
+        "reference" : "Fifteen minutes will be permitted between halves of all games."
+    },
+    {
+        "question"  : "How far is the three-point line from the basket?",
+        "reference" : "The three-point field goal area has an arc of 23 feet 9 inches from the middle of the basket which intersects parallel lines 3 feet from the sidelines."
+    },
+    {
+        "question"  : "What is a dribble in the NBA?",
+        "reference" : "A dribble is movement of the ball, caused by a player in control, who throws or taps the ball to the floor."
+    },
+    {
+        "question"  : "How long does a player have to attempt a free throw?",
+        "reference" : "A free throw attempt must be made within 10 seconds."
+    },
+    {
+        "question"  : "What is a flagrant foul penalty 1?",
+        "reference" : "If contact committed against a player is interpreted to be unnecessary, a flagrant foul penalty 1 will be assessed. Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended."
+    },
+    {
+        "question"  : "What is a flagrant foul penalty 2?",
+        "reference" : "If contact committed against a player is interpreted to be unnecessary and excessive, a flagrant foul penalty 2 will be assessed. Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended."
+    },
+    {
+        "question"  : "How many timeouts can a team use in the fourth quarter?",
+        "reference" : "Each team is limited to no more than four timeouts in the fourth period."
+    },
+    {
+        "question"  : "What is a free throw in basketball?",
+        "reference" : "A free throw is the privilege given a player to score one point by an unhindered attempt for the goal from a position directly behind the free throw line."
+    },
+    {
+        "question"  : "When must a player be ejected from an NBA game?",
+        "reference" : "A player must be ejected for a punching foul, a fighting foul, deliberately entering the stands, a flagrant foul penalty 2, a second flagrant foul penalty 1, or participation in the game when not on the team's active list."
+    }
+]
