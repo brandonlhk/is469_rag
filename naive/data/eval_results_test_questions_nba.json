@@ -1,0 +1,1046 @@
+[
+  {
+    "question": "How many personal fouls does it take to foul out of an NBA game?",
+    "reference_answer": "six",
+    "naiveRAG_answer": "A player is disqualified from the game when he receives his sixth personal foul.",
+    "context": [
+      {
+        "id": "rule_3_sec_i_a",
+        "text": "Rule 3 PLAYERS, SUBSTITUTES, AND COACHES, Section Team (a): Each team shall consist of five players. A player is disqualified from the game when he receives his sixth personal foul. No team may be reduced to less than five players. If a player in the game receives his sixth personal foul and all substitutes have already been disqualified, said player shall remain in the game and shall be charged with a personal and team foul. A technical foul also shall be assessed against his team. All subsequent personal fouls, including offensive fouls, shall be treated similarly. All players who have six or more personal fouls and remain in the game shall be treated similarly.",
+        "score": 0.6037752628326416
+      },
+      {
+        "id": "rule_12_sec_v_a",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Free Throw Penalty Situations (a): Each team is limited to four team fouls per regulation period without additional penalties. Common fouls charged as team fouls, in excess of four, will be penalized by one free throw attempt plus a penalty free throw attempt. (1) The first four common fouls committed by a team in any regulation period shall result in the ball being awarded to the opposing team on the sideline nearest where play was interrupted. The ball shall be awarded no nearer to the baseline than the free throw line extended. (2) The first three common fouls committed by a team in any overtime period, shall result in the ball being awarded to the opposing team on the sideline nearest where play was interrupted. The ball shall be awarded no nearer to the baseline than the free throw line extended. (3) If a team has not committed its quota of four team fouls during the first ten minutes of any regulation period, or its quota of three team fouls during the first three minutes of any overtime period, it shall be permitted to incur one team foul during the last two minutes without penalty. (4) During any overtime period, common fouls charged as team fouls in excess of three, will be penalized by one free throw plus a penalty free throw attempt. (5) Personal fouls which are flagrant, punching, away-from-the-play, clear path-to-the- basket, or transition take foul, will carry their own separate penalties and are included in the team foul total. (6) Personal fouls committed during a successful field goal attempt or free throw, which result in one free throw attempt being awarded, will not result in an additional free throw attempt if the penalty situation exists.",
+        "score": 0.5964927673339844
+      },
+      {
+        "id": "rule_12_sec_vii_c",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Fines (c): During an altercation, all players not participating in the game must remain in the immediate vicinity of their bench. Violators may be subject to a one-game suspension and fined up to $100,000. In determining whether to impose discipline on a player for leaving the bench area in connection with an altercation during a game, the NBA will take into account the following factors, as well as any other relevant facts and circumstances: (i) the distance the player traveled from his team’s bench, and (ii) the extent to which he entered the immediate proximity of the altercation. A team must have a minimum of eight players dressed and eligible and able to play in each preseason and regular season game and nine in each Play-In and playoff game. In the event that multiple players on a team are suspended for leaving the bench, and if necessary in order for the team to have the requisite number of players eligible and able to play in a game, the suspensions will be served over multiple games (e.g., with some players suspended for the first game following the altercation and other players suspended for the second game following the altercation), with the players serving their suspensions alphabetically, according to the first letters of their last names.",
+        "score": 0.5881755352020264
+      },
+      {
+        "id": "rule_12_sec_x_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Away-From-The-Play Foul (b): In the event that the personal foul committed is a flagrant or punching foul, the play shall be administered as follows: (1) A personal foul and team foul shall be assessed and the free throw shooter shall be awarded two free throw attempts. The free throws may be attempted by any player in the game at the time the flagrant foul was committed. (2) If a flagrant foul—penalty (1) is assessed and the offended player is unable to participate in the game, the substitute will be selected by his coach. The two free throws may be attempted by any of the four remaining players in the game. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game. (3) If a flagrant foul—penalty (2) or punching foul is assessed and the offended player is unable to attempt his free throws because of injury, the substitute will be selected by his coach. The two free throws may be attempted by the substitute or any of the four remaining players in the game. If the offended player is unable to attempt his free throws as a result of being ejected, any of the four remaining players may attempt the free throws. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game.",
+        "score": 0.5712701082229614
+      },
+      {
+        "id": "rule_12_sec_i_e",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Types (e): Contact which occurs on the hand of the offensive player, while that part of the hand is in contact with the ball, is legal. EXCEPTION: Flagrant and punching fouls. PENALTIES: The offender is charged with a personal foul. The offending team is charged with a team foul if the illegal contact was caused by the defender. There is no team foul if there are personal fouls on one member of each team or the personal foul is against an offensive player. The offended team is awarded: (1) the ball out-of-bounds on the sideline at the nearest spot where play was interrupted but no nearer to the baseline than the free throw line extended if an offensive foul is assessed. (2) the ball out-of-bounds on the sideline where play was interrupted but no nearer to the baseline than the free throw line extended if the personal foul is on the defender and if the penalty situation is not in effect. (3) one free throw attempt if the personal foul is on the defender and there is a successful field goal or free throw on the play. (4) two/three free throw attempts if the personal foul is on the defender and the offensive player is in the act of shooting an unsuccessful field goal. (5) one free throw attempt plus a penalty free throw attempt if the personal foul is on the defender and the offensive player is not in the act of attempting a field goal if the penalty situation is in effect. (6) two free throw attempts and possession of the ball on the sideline nearest the spot where play was interrupted if an offensive player, or a teammate, is fouled while having a clear-path-to-the-basket. A clear-path-to-the-basket foul occurs if: (i) a personal foul is committed on any offensive player during his team’s transition scoring opportunity; (ii) when the foul occurs, the ball is ahead of the tip of the circle in the backcourt, no defender is ahead of the offensive player with the scoring opportunity and that offensive player is in control of the ball or a pass to him has been released; and (iii) the defensive foul deprives the offensive team of a transition scoring opportunity. A clear-path-to-the-basket foul cannot occur if (i) the offensive player is fouled in the act of shooting or (ii) the foul is caused by the defender’s attempt to intercept or deflect a pass intended for the offensive player with the transition scoring opportunity. (7) two free throw attempts if a personal foul is committed against an offensive player without the ball when his team has at least a one-man advantage on a fast break and the defensive player takes a foul to stop play. (8) one free throw attempt, and possession of the ball on the sideline nearest the spot where play was interrupted but no nearer to the baseline than the free throw line extended, when a defender commits a transition take foul. The free throw may be attempted by any player on the offended team in the game at the time the foul was committed.",
+        "score": 0.5646674036979675
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that a player is disqualified from the game when he receives his sixth personal foul."
+  },
+  {
+    "question": "How long is the shot clock in the NBA?",
+    "reference_answer": "24 seconds",
+    "naiveRAG_answer": "The shot clock in the NBA starts at 24 seconds unless otherwise provided in Rule 7.",
+    "context": [
+      {
+        "id": "rule_7_sec_i",
+        "text": "Rule 7 SHOT CLOCK, Section Definition: The “shot clock” refers to the timing device that displays a countdown of the time within which the team possessing the ball must attempt a field goal. The shot clock shall start at 24 seconds unless otherwise provided in Rule 7. The shot clock shall be displayed in seconds, except tenths of seconds will also be displayed once the shot clock reaches 4.9 seconds.",
+        "score": 0.7124875783920288
+      },
+      {
+        "id": "rule_7_sec_iv_c",
+        "text": "Rule 7 SHOT CLOCK, Section Resetting Shot Clock (c): The shot clock shall be reset to 24 seconds anytime the following occurs: (1) Change of possession from one team to another (2) Personal foul where ball is being inbounded in backcourt (3) Violation where ball is being inbounded in backcourt (4) Jump balls which are not the result of a held ball caused by the defense (5) All flagrant and punching fouls",
+        "score": 0.6923385858535767
+      },
+      {
+        "id": "rule_7_sec_iv_e",
+        "text": "Rule 7 SHOT CLOCK, Section Resetting Shot Clock (e): The shot clock shall remain the same as when play was interrupted or reset to 14 seconds, whichever is greater, anytime the following occurs: (1) Personal foul by the defense where ball is being inbounded in frontcourt EXCEPTION: Rule 7, Section IV(d)(2) (2) Defensive three-second violation (3) Technical fouls and/or delay-of-game warnings on the defensive team (4) Kicked or punched ball by the defensive team with the ball being inbounded in the offensive team’s frontcourt (5) Infection control (6) Jump balls retained by the offensive team as the result of any violation by the defensive team during a jump ball which results in a frontcourt throw-in",
+        "score": 0.6808465719223022
+      },
+      {
+        "id": "rule_7_sec_ii_i",
+        "text": "Rule 7 SHOT CLOCK, Section Starting and Stopping of Shot Clock (i): If during any period there are 24 seconds OR LESS left to play in the period, the shot clock shall not function following a change of possession; provided, however, the shot clock shall be reactivated and reset to 14 seconds when any of the situations described in Section IV(d) below occur.",
+        "score": 0.6776847839355469
+      },
+      {
+        "id": "rule_7_sec_iv_d",
+        "text": "Rule 7 SHOT CLOCK, Section Resetting Shot Clock (d): The shot clock shall be reset to 14 seconds anytime the following occurs: (1) The offensive team is the first to gain possession after an unsuccessful free throw that remains in play, or an unsuccessful field goal attempt that contacts the basket ring (2) A loose ball foul is called on the defensive team in the sequence immediately following an unsuccessful free throw that remains in play, or an unsuccessful field goal attempt that contacts the basket ring; provided that, as a result of the foul, the offensive team inbounds the ball in the frontcourt NOTE: If, as a result of a defensive foul, the offensive team inbounds the ball in the backcourt, Rule 7, Section IV(c)(2) applies (3) The offensive team retains possession after the ball goes out-of-bounds in the sequence immediately following an unsuccessful free throw that remains in play, or an unsuccessful field goal attempt that contacts the basket ring For purposes of Rule 7, Section IV(d) only, an “unsuccessful field goal attempt that contacts the basket ring” shall include any live ball from the playing court that contacts the basket ring of the team which is in possession.",
+        "score": 0.6483995914459229
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that the shot clock starts at 24 seconds unless otherwise provided in Rule 7."
+  },
+  {
+    "question": "How many timeouts is each team allowed per game?",
+    "reference_answer": "seven",
+    "naiveRAG_answer": "Each team is entitled to seven charged timeouts during regulation play.",
+    "context": [
+      {
+        "id": "rule_5_sec_vi_a",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (a): Each team is entitled to seven (7) charged timeouts during regulation play. Each team is limited to no more than four (4) timeouts in the fourth period. Each team will be limited to two (2) team timeouts after the later of (i) the three-minute mark of the fourth period or (ii) the conclusion of the second mandatory timeout of the fourth period.",
+        "score": 0.6888702511787415
+      },
+      {
+        "id": "rule_5_sec_vi_c",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (c): There must be two mandatory timeouts in each period. If neither team has taken a timeout prior to 6:59 of the period, it shall be mandatory for the Official Scorer to take it at the first dead ball and charge it to the home team, or for a neutral site game, the second team named in the official schedule. If no subsequent timeouts are taken prior to 2:59, it shall be mandatory for the Official Scorer to take it and charge it to the team not previously charged. The Official Scorer shall notify a team when it has been charged with a mandatory time-out. Mandatory timeouts shall be 2:45 for local games and 3:15 for national games. Any additional team timeouts in a period beyond those which are mandatory shall be 1:15. No mandatory timeout may be charged during an official’s suspension-of-play. EXCEPTION: Suspension-of-play for Infection Control. See Comments on the Rules, Section II(N).",
+        "score": 0.6119370460510254
+      },
+      {
+        "id": "rule_5_sec_vi_g",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (g): If a timeout is charged to the offensive team during the last two minutes of the fourth period and/or last two minutes of any overtime period and (1) the ball is out-of-bounds in the backcourt (except for a suspension of play after the team had advanced the ball), or (2) after securing the ball from a rebound in the backcourt and prior to any advance of the ball, or (3) after the offensive team secures the ball from a change of possession in the backcourt and prior to any advance of the ball, the timeout should be granted. Upon resumption of play, the team granted the timeout shall have the option of putting the ball into play at the 28’ hash mark in the frontcourt or at the designated spot out-of-bounds. If the ball is put into play at the hash mark, the ball may be passed into either the frontcourt or backcourt. If it is passed into the backcourt, the team will receive a new 8-second count. However, once the ball is (1) thrown in from out-of-bounds, or (2) dribbled or passed after receiving it from a rebound or a change of possession, the timeout shall be granted, and, upon resumption of play, the ball shall be in-bounded on the sideline where play was interrupted. In order for the option to be available following these conditions, a second timeout must be granted to the offensive team. The time on the game clock and the shot clock shall remain as when the timeout was called.",
+        "score": 0.5729160308837891
+      },
+      {
+        "id": "rule_14_sec_v_f",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Impact on Timeouts (f): If a team attempts to utilize a Challenge to trigger instant replay review of an event when that team has no remaining timeouts, no Challenge will take place, and that team shall be charged with an excessive timeout, for which the penalty is a Technical Foul.",
+        "score": 0.5720722079277039
+      },
+      {
+        "id": "rule_14_sec_v_d",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Impact on Timeouts (d): If a team utilizes its first Challenge to trigger instant replay review of an event that preceded the opposing team’s mandatory timeout, the team that is ultimately charged with the timeout depends on whether the Challenge is successful: (1) If the Challenge is unsuccessful, the challenging team will be assigned the timeout and, notwithstanding that the Challenge coincided with the opposing team’s mandatory timeout, the opposing team will not be charged for the timeout (and, if another mandatory timeout is remaining in the period, the next mandatory timeout will be assigned to the opposing team); and (2) If the Challenge is successful, the challenging team will not be assigned a timeout and the opposing team will be charged with the timeout. If a team utilizes its second Challenge to trigger instant replay review of an event that preceded the opposing team’s mandatory timeout, the challenging team will be assigned the timeout (even if the Challenge is successful).",
+        "score": 0.5658350586891174
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that each team is entitled to seven charged timeouts during regulation play."
+  },
+  {
+    "question": "How many players are on each team on the court at one time?",
+    "reference_answer": "five",
+    "naiveRAG_answer": "Five players are on each team on the court at one time.",
+    "context": [
+      {
+        "id": "rule_3_sec_i_a",
+        "text": "Rule 3 PLAYERS, SUBSTITUTES, AND COACHES, Section Team (a): Each team shall consist of five players. A player is disqualified from the game when he receives his sixth personal foul. No team may be reduced to less than five players. If a player in the game receives his sixth personal foul and all substitutes have already been disqualified, said player shall remain in the game and shall be charged with a personal and team foul. A technical foul also shall be assessed against his team. All subsequent personal fouls, including offensive fouls, shall be treated similarly. All players who have six or more personal fouls and remain in the game shall be treated similarly.",
+        "score": 0.5238932967185974
+      },
+      {
+        "id": "rule_3_sec_iv_d",
+        "text": "Rule 3 PLAYERS, SUBSTITUTES, AND COACHES, Section The Coach and Others (d): The first row of a team’s bench shall be occupied only by a league-approved head coach, a maximum of three assistant coaches, players, and a trainer. During an altercation, the head and assistant coaches are permitted on the court as “peacemakers”.",
+        "score": 0.4976552426815033
+      },
+      {
+        "id": "rule_12_sec_iii_a",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Number of Players (a): If the ball is put into play and remains in play with one team having six or more players on the court, a non-unsportsmanlike technical foul will be assessed on the team with too many players and such team would lose possession if it had possession at the time the violation was discovered. Immediately following the free throw awarded for the technical foul, the team with the correct number of players will instruct the Crew Chief to: (1) resume play from the point in time when the technical foul was assessed, under the same conditions as would have prevailed had there been no error with a throw-in, jump ball, or foul shot, as appropriate. If the ball is to be put into play with a throw-in, the team who shot the free throw will be awarded possession unless that team just scored and the error was discovered prior to the throw-in being released by the team with six or more players. (2) nullify all play that occurred from the point in time when the ball was put into play with one team having six or more players on the court and ending when the technical foul was assessed, reset the game and shot clock to the point in time when the ball was put into play, and if the ball was put into play by: (i) a throw-in, the ball shall be returned to the original throw-in spot with the ball awarded to the team with the correct number of players, or (ii) a missed free throw that remained in play, a jump ball shall be held at center court between any two players in the game, or (iii) a jump ball, the ball shall be returned to the original jump ball spot and a jump ball held with the same two players. EXCEPTION: Acts of unsportsmanlike conduct and all flagrant fouls, and points scored from any resulting free throws, shall not be nullified.",
+        "score": 0.4875895380973816
+      },
+      {
+        "id": "rule_1_sec_ii_f",
+        "text": "Rule 1 COURT DIMENSIONS—EQUIPMENT, Section Equipment (f): (1) The ball shall be an officially approved NBA ball between 7 ½ and 8 ½ pounds pressure. (2) A minimum of nine balls must be made available to each team for pre-game warmup.",
+        "score": 0.46764642000198364
+      },
+      {
+        "id": "rule_4_sec_vi_b",
+        "text": "Rule 4 DEFINITIONS, Section Frontcourt/Backcourt (b): A team’s backcourt consists of the entire midcourt line and the rest of the court to include the opponent’s basket and inbounds part of the backboard.",
+        "score": 0.4406769275665283
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that each team shall consist of five players."
+  },
+  {
+    "question": "What is the duration of each quarter in an NBA game?",
+    "reference_answer": "12 minutes",
+    "naiveRAG_answer": "Not found in the provided context.",
+    "context": [
+      {
+        "id": "rule_5_sec_ii_f",
+        "text": "Rule 5 SCORING AND TIMING, Section Timing (f): The game is considered to be in the two-minute part when the game clock shows 2:00 or less time remaining in the period.",
+        "score": 0.5397564768791199
+      },
+      {
+        "id": "rule_5_sec_vi_a",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (a): Each team is entitled to seven (7) charged timeouts during regulation play. Each team is limited to no more than four (4) timeouts in the fourth period. Each team will be limited to two (2) team timeouts after the later of (i) the three-minute mark of the fourth period or (ii) the conclusion of the second mandatory timeout of the fourth period.",
+        "score": 0.519170343875885
+      },
+      {
+        "id": "rule_5_sec_vi_g",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (g): If a timeout is charged to the offensive team during the last two minutes of the fourth period and/or last two minutes of any overtime period and (1) the ball is out-of-bounds in the backcourt (except for a suspension of play after the team had advanced the ball), or (2) after securing the ball from a rebound in the backcourt and prior to any advance of the ball, or (3) after the offensive team secures the ball from a change of possession in the backcourt and prior to any advance of the ball, the timeout should be granted. Upon resumption of play, the team granted the timeout shall have the option of putting the ball into play at the 28’ hash mark in the frontcourt or at the designated spot out-of-bounds. If the ball is put into play at the hash mark, the ball may be passed into either the frontcourt or backcourt. If it is passed into the backcourt, the team will receive a new 8-second count. However, once the ball is (1) thrown in from out-of-bounds, or (2) dribbled or passed after receiving it from a rebound or a change of possession, the timeout shall be granted, and, upon resumption of play, the ball shall be in-bounded on the sideline where play was interrupted. In order for the option to be available following these conditions, a second timeout must be granted to the offensive team. The time on the game clock and the shot clock shall remain as when the timeout was called.",
+        "score": 0.5131222009658813
+      },
+      {
+        "id": "rule_5_sec_ii_d",
+        "text": "Rule 5 SCORING AND TIMING, Section Timing (d): 2:30 will be permitted between the first and second periods, the third and fourth periods, and before any overtime period during local games. For national TV games 3:30 will be permitted between the first and second periods, and between the third and fourth periods and 2:30 before any overtime period.",
+        "score": 0.5104724168777466
+      },
+      {
+        "id": "rule_5_sec_iii_a",
+        "text": "Rule 5 SCORING AND TIMING, Section End of Period (a): Each period ends when time expires. EXCEPTIONS: (1) If a field goal attempt is in flight toward the basket, the period ends when the goal is made, missed, or touched by an offensive player. (2) If the official’s whistle sounds prior to :00.0 on the clock, the period is not over and time must be added to the clock. (3) If a field goal attempt is in flight toward the basket when the horn sounds ending a period, and it subsequently is touched by: (a) a defensive player, the goal, if successful, shall count; or (b) an offensive player, the period has ended. (4) If a timeout request is made as time expires for a period, the period ends and the timeout shall not be granted. (5) If there is a foul called on or by a player in the act of shooting the period will end after the foul is penalized. (See Rule 13, Section II(b)(ii)).",
+        "score": 0.5097787380218506
+      }
+    ],
+    "faithfulness": 1,
+    "answer_relevance": 1,
+    "context_relevance": 1,
+    "reasoning": "The answer is irrelevant to the question and the context does not provide any information about the duration of each quarter in an NBA game."
+  },
+  {
+    "question": "How far is the free throw line from the backboard?",
+    "reference_answer": "15 feet",
+    "naiveRAG_answer": "The free throw line is 15 feet from the plane of the face of the backboard.",
+    "context": [
+      {
+        "id": "rule_1_sec_i_c",
+        "text": "Rule 1 COURT DIMENSIONS—EQUIPMENT, Section Court and Dimensions (c): A free throw line shall be drawn (2” wide) across each of the circles indicated in the court diagram. It shall be parallel to the end line and shall be 15’ from the plane of the face of the backboard.",
+        "score": 0.7307174205780029
+      },
+      {
+        "id": "rule_1_sec_i_b",
+        "text": "Rule 1 COURT DIMENSIONS—EQUIPMENT, Section Court and Dimensions (b): A free throw lane shall be marked at each end of the court with dimensions and markings as shown in the court diagram. All boundary lines are part of the lane; lane space marks and neutral zone marks are not. The areas identified by the lane space markings are 2” by 6” inches.",
+        "score": 0.5991882681846619
+      },
+      {
+        "id": "rule_9_sec_i_b",
+        "text": "Rule 9 FREE THROWS AND PENALTIES, Section Positions and Violations (b): The free throw shooter may not step over the plane of the free throw line until the ball touches the basket ring, backboard, or the free throw ends. PENALTY: This is a violation by the shooter on all free throw attempts and no point can be scored. If there is a violation and the free throw attempt is to remain in play, the opposing team shall inbound on either sideline at the free throw line extended. If both teams commit a violation during this free throw, a jump ball shall be administered at midcourt between any two opponents in the game. If there is a violation and the free throw attempt is not to remain in play, then play will continue from that point. If an opponent also commits a violation (double violation), then play will also continue from that point.",
+        "score": 0.5926002264022827
+      },
+      {
+        "id": "rule_1_sec_i_f",
+        "text": "Rule 1 COURT DIMENSIONS—EQUIPMENT, Section Court and Dimensions (f): Two hash marks shall be drawn (2” wide) perpendicular to the baseline on each side of the free throw lane line. These hash marks shall be 3’ from the free throw lane line and extend 6” onto the court.",
+        "score": 0.5757918953895569
+      },
+      {
+        "id": "rule_comments_sec_xvi",
+        "text": "Rule COMMENTS Comments on the Rules, Section Five-Second Back-to-the-Basket Violation: An offensive player in his frontcourt below the free throw line extended shall not be permitted to dribble with his back or side to the basket for more than five seconds. The count ends when (1) the player picks up the ball, (2) dribbles above the free throw line extended, or (3) a defensive player deflects the ball away. PENALTY: Loss of ball. The ball is awarded to the opposing team out-of-bounds on the nearest sideline at the free throw line extended.",
+        "score": 0.574510395526886
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that the free throw line is 15 feet from the plane of the face of the backboard."
+  },
+  {
+    "question": "How many seconds does a team have to advance the ball past half court?",
+    "reference_answer": "8 seconds",
+    "naiveRAG_answer": "A team has 8 seconds to advance the ball past half court.",
+    "context": [
+      {
+        "id": "rule_4_sec_vi_f",
+        "text": "Rule 4 DEFINITIONS, Section Frontcourt/Backcourt (f): The team on offense must bring the ball across the midcourt line within 8 seconds. EXCEPTION: (1) kicked ball, (2) punched ball, (3) personal or technical foul on the defensive team, (4) delay-of-game warning on the defensive team, or (5) infection control.",
+        "score": 0.5912998914718628
+      },
+      {
+        "id": "rule_5_sec_vi_g",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (g): If a timeout is charged to the offensive team during the last two minutes of the fourth period and/or last two minutes of any overtime period and (1) the ball is out-of-bounds in the backcourt (except for a suspension of play after the team had advanced the ball), or (2) after securing the ball from a rebound in the backcourt and prior to any advance of the ball, or (3) after the offensive team secures the ball from a change of possession in the backcourt and prior to any advance of the ball, the timeout should be granted. Upon resumption of play, the team granted the timeout shall have the option of putting the ball into play at the 28’ hash mark in the frontcourt or at the designated spot out-of-bounds. If the ball is put into play at the hash mark, the ball may be passed into either the frontcourt or backcourt. If it is passed into the backcourt, the team will receive a new 8-second count. However, once the ball is (1) thrown in from out-of-bounds, or (2) dribbled or passed after receiving it from a rebound or a change of possession, the timeout shall be granted, and, upon resumption of play, the ball shall be in-bounded on the sideline where play was interrupted. In order for the option to be available following these conditions, a second timeout must be granted to the offensive team. The time on the game clock and the shot clock shall remain as when the timeout was called.",
+        "score": 0.5815430879592896
+      },
+      {
+        "id": "rule_10_sec_viii",
+        "text": "Rule 10 VIOLATIONS AND PENALTIES, Section Eight-Second Rule: A team shall not be in continuous possession of a ball which is in its backcourt for more than 8 consecutive seconds. EXCEPTION (1): A new 8 seconds is awarded if the defense: (1) kicks or punches the ball, (2) is assessed a personal or technical foul, or (3) is issued a delay of game warning. EXCEPTION (2): A new 8 seconds is awarded: (1) if play is suspended to administer",
+        "score": 0.5805709958076477
+      },
+      {
+        "id": "rule_comments_sec_xvi",
+        "text": "Rule COMMENTS Comments on the Rules, Section Five-Second Back-to-the-Basket Violation: An offensive player in his frontcourt below the free throw line extended shall not be permitted to dribble with his back or side to the basket for more than five seconds. The count ends when (1) the player picks up the ball, (2) dribbles above the free throw line extended, or (3) a defensive player deflects the ball away. PENALTY: Loss of ball. The ball is awarded to the opposing team out-of-bounds on the nearest sideline at the free throw line extended.",
+        "score": 0.5588579177856445
+      },
+      {
+        "id": "rule_14_sec_ii_a",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Procedure to Initiate the Challenge (a): To initiate a Challenge, the challenging team must take the following steps in sequence: (1) The challenging team must call a legal timeout immediately after the call in question (unless a mandatory timeout or timeout called by the opposing team is already underway); (2) The challenging team’s head coach must simultaneously signal for a Challenge by utilizing the instant replay signal (i.e., twirling an index finger) toward the game official(s) during the same interaction with the game official(s) in which the timeout was called or, if the timeout was called by a player on the challenging team, the challenging team’s head coach must simultaneously signal for the Challenge by utilizing the instant replay signal toward the game officials as the game official is notifying the scorekeeper of the timeout; and (3) During the same interaction with the game official(s) in which the challenging team’s head coach signaled for the Challenge, the challenging team’s head coach must notify the game official(s) of the specific event that the team is challenging. For purposes of this rule only, “immediately” shall mean that a timeout is called prior to the ball being given to the thrower-in, the ball being given to the free throw shooter, or the ball being tossed on a jump ball, whichever is applicable (unless a mandatory timeout or timeout called by the opposing team is already underway).",
+        "score": 0.5568510293960571
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that a team on offense must bring the ball across the midcourt line within 8 seconds."
+  },
+  {
+    "question": "What is the penalty for a technical foul in terms of free throws?",
+    "reference_answer": "one free throw",
+    "naiveRAG_answer": "No free throw attempts are awarded when a double technical foul is assessed. Technical fouls assessed to opposing teams during the same dead ball and prior to the administering of any free throw attempt for the first technical foul, shall be interpreted as a double technical foul.\n\nTechnical fouls shall be assessed to players, coaches, or trainers for fighting. No free throws will be attempted. The participants will be ejected immediately.",
+    "context": [
+      {
+        "id": "rule_4_sec_iv_b",
+        "text": "Rule 4 DEFINITIONS, Section Fouls (b): A technical foul is the penalty for unsportsmanlike conduct or violations by team members on the floor or seated on the bench.",
+        "score": 0.696414589881897
+      },
+      {
+        "id": "rule_12_sec_vii_e",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Fines (e): Any player who in the opinion of the officials has deliberately hung on the basket ring shall be assessed a non-unsportsmanlike technical foul and a fine of at least $2,000. EXCEPTION: An offensive or defensive player may hang on the basket ring, backboard, or support to prevent an injury to himself or another player, with no penalty.",
+        "score": 0.6728782653808594
+      },
+      {
+        "id": "rule_12_sec_v_d",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Conduct (d): A technical foul shall be assessed for unsportsmanlike tactics such as: (1) Disrespectfully addressing an official (2) Physically contacting an official (3) Overt actions indicating resentment to a call or no-call (4) Use of profanity (5) A coach entering onto the court without permission of an official (6) A deliberately-thrown elbow or any unnatural physical act towards an opponent with no contact involved (7) Taunting",
+        "score": 0.6689721345901489
+      },
+      {
+        "id": "rule_12_sec_v_o",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Conduct (o): No free throw attempts are awarded when a double technical foul is assessed. Technical fouls assessed to opposing teams during the same dead ball and prior to the administering of any free throw attempt for the first technical foul, shall be interpreted as a double technical foul.",
+        "score": 0.6648843288421631
+      },
+      {
+        "id": "rule_12_sec_vi_a",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Fighting Fouls (a): Technical fouls shall be assessed to players, coaches, or trainers for fighting. No free throws will be attempted. The participants will be ejected immediately.",
+        "score": 0.6481126546859741
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is entirely supported by the context, directly addressing the question about the penalty for a technical foul in terms of free throws."
+  },
+  {
+    "question": "How many challenges does each coach get per game?",
+    "reference_answer": "one",
+    "naiveRAG_answer": "Each team is entitled to one Challenge per game. If a team’s first Challenge is successful, the team will be awarded a second Challenge.",
+    "context": [
+      {
+        "id": "rule_14_sec_i_b",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Overview (b): Each team is entitled to one Challenge per game. If a team’s first Challenge is successful, the team will be awarded a second Challenge.",
+        "score": 0.6358798742294312
+      },
+      {
+        "id": "rule_14_sec_ii_b",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Procedure to Initiate the Challenge (b): To initiate a Challenge of an event that immediately preceded a mandatory timeout or timeout called by the opposing team, no later than 30 seconds from the start of the timeout (as measured by the timeout clock), the challenging team’s head coach must take the following steps in sequence: (1) Signal for a Challenge by utilizing the instant replay signal toward the game officials; and (2) During the same interaction with the game official(s) in which the challenging team’s head coach signaled for the Challenge, the challenging team’s head coach must notify the game official(s) of the specific event that the team is challenging.",
+        "score": 0.5855597257614136
+      },
+      {
+        "id": "rule_14_sec_v_d",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Impact on Timeouts (d): If a team utilizes its first Challenge to trigger instant replay review of an event that preceded the opposing team’s mandatory timeout, the team that is ultimately charged with the timeout depends on whether the Challenge is successful: (1) If the Challenge is unsuccessful, the challenging team will be assigned the timeout and, notwithstanding that the Challenge coincided with the opposing team’s mandatory timeout, the opposing team will not be charged for the timeout (and, if another mandatory timeout is remaining in the period, the next mandatory timeout will be assigned to the opposing team); and (2) If the Challenge is successful, the challenging team will not be assigned a timeout and the opposing team will be charged with the timeout. If a team utilizes its second Challenge to trigger instant replay review of an event that preceded the opposing team’s mandatory timeout, the challenging team will be assigned the timeout (even if the Challenge is successful).",
+        "score": 0.5854854583740234
+      },
+      {
+        "id": "rule_14_sec_v_c",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Impact on Timeouts (c): If a team utilizes a Challenge to trigger instant replay review of an event that immediately preceded the challenging team’s mandatory timeout, the challenging team will lose its mandatory timeout (even if the Challenge is successful). If the Challenge is unsuccessful, the challenging team will only be charged one timeout (i.e., it will not be charged a timeout for both the mandatory timeout and the Challenge).",
+        "score": 0.5793120861053467
+      },
+      {
+        "id": "rule_14_sec_v_e",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Impact on Timeouts (e): If a team utilizes its first Challenge to trigger instant replay review of an event that preceded a timeout called by the opposing team, the team that is ultimately charged with the timeout depends on whether the Challenge is successful: (1) If the Challenge is unsuccessful, the challenging team will be assigned the timeout and, notwithstanding that the opposing team initially called the timeout, the opposing team will not be charged for the timeout; and (2) If the Challenge is successful, the challenging team will not be assigned a timeout and the opposing team will be charged with the timeout. If a team utilizes its second Challenge to trigger instant replay review of an event that preceded a timeout called by the opposing team, the challenging team will be assigned the timeout (even if the Challenge is successful).",
+        "score": 0.5781413316726685
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that each team is entitled to one Challenge per game, and if the first Challenge is successful, the team will be awarded a second Challenge."
+  },
+  {
+    "question": "What happens when a player commits a flagrant foul penalty 2?",
+    "reference_answer": "ejection",
+    "naiveRAG_answer": "When a player commits a flagrant foul penalty 2, the following occurs:\n- Two free throws are attempted and the ball is awarded to the offended team on either side of the court at the free throw line extended.\n- If the offended player is injured and unable to attempt their free throws, their coach will select a substitute and any player from the team is eligible to attempt the free throws.\n- This substitute may not be replaced until the ball is legally touched by a player on the court.\n- The injured player may return to the game at any time after the free throws are attempted.\n- This is an unsportsmanlike act and the offender is ejected.",
+    "context": [
+      {
+        "id": "rule_12_sec_iv_a",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Flagrant Foul (a): If contact committed against a player, with or without the ball, is interpreted to be unnecessary, a flagrant foul—penalty (1) will be assessed. A personal foul is charged to the offender and a team foul is charged to the team. PENALTY: (1) Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended. (2) If the offended player is injured and unable to attempt his free throws, his coach will select one of the remaining four players in the game to attempt the free throws. (3) His coach will pick the substitute, who may not be replaced until the ball is legally touched by a player on the court. (EXCEPTION: Rule 3, Section V(e).) (4) The injured player may not return to the game. (EXCEPTION: Rule 9, Section II(a)(2).) (5) A player will be ejected if he commits two flagrant fouls in the same game.",
+        "score": 0.6723508834838867
+      },
+      {
+        "id": "rule_12_sec_iv_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Flagrant Foul (b): If contact committed against a player, with or without the ball, is interpreted to be unnecessary and excessive, a flagrant foul—penalty (2) will be assessed. A personal foul is charged to the offender and a team foul is charged to the team. PENALTY: (1) Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended. (2) If the offended player is injured and unable to attempt his free throws, his coach will select a substitute and any player from the team is eligible to attempt the free throws. (3) This substitute may not be replaced until the ball is legally touched by a player on the court. (EXCEPTION: Rule 3, Section V(e).) (4) The injured player may return to the game at any time after the free throws are attempted. (5) This is an unsportsmanlike act and the offender is ejected.",
+        "score": 0.6624200344085693
+      },
+      {
+        "id": "rule_12_sec_xi_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Transition Take Foul (b): In the event that the personal foul committed is a flagrant or punching foul, the play shall be administered as follows: (1) A personal foul and team foul shall be assessed and the free throw shooter shall be awarded two free throw attempts. The free throws may be attempted by any player in the game at the time the flagrant foul was committed. (2) If a flagrant foul—penalty (1) is assessed and the offended player is unable to participate in the game, the substitute will be selected by his coach. The two free throws may be attempted by any of the four remaining players in the game. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game. (3) If a flagrant foul—penalty (2) or punching foul is assessed and the offended player is unable to attempt his free throws because of injury, the substitute will be selected by his coach. The two free throws may be attempted by the substitute or any of the four remaining players in the game. If the offended player is unable to attempt his free throws as a result of being ejected, any of the four remaining players may attempt the free throws. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game.",
+        "score": 0.6596129536628723
+      },
+      {
+        "id": "rule_12_sec_x_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Away-From-The-Play Foul (b): In the event that the personal foul committed is a flagrant or punching foul, the play shall be administered as follows: (1) A personal foul and team foul shall be assessed and the free throw shooter shall be awarded two free throw attempts. The free throws may be attempted by any player in the game at the time the flagrant foul was committed. (2) If a flagrant foul—penalty (1) is assessed and the offended player is unable to participate in the game, the substitute will be selected by his coach. The two free throws may be attempted by any of the four remaining players in the game. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game. (3) If a flagrant foul—penalty (2) or punching foul is assessed and the offended player is unable to attempt his free throws because of injury, the substitute will be selected by his coach. The two free throws may be attempted by the substitute or any of the four remaining players in the game. If the offended player is unable to attempt his free throws as a result of being ejected, any of the four remaining players may attempt the free throws. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game.",
+        "score": 0.6535048484802246
+      },
+      {
+        "id": "rule_12_sec_i_e",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Types (e): Contact which occurs on the hand of the offensive player, while that part of the hand is in contact with the ball, is legal. EXCEPTION: Flagrant and punching fouls. PENALTIES: The offender is charged with a personal foul. The offending team is charged with a team foul if the illegal contact was caused by the defender. There is no team foul if there are personal fouls on one member of each team or the personal foul is against an offensive player. The offended team is awarded: (1) the ball out-of-bounds on the sideline at the nearest spot where play was interrupted but no nearer to the baseline than the free throw line extended if an offensive foul is assessed. (2) the ball out-of-bounds on the sideline where play was interrupted but no nearer to the baseline than the free throw line extended if the personal foul is on the defender and if the penalty situation is not in effect. (3) one free throw attempt if the personal foul is on the defender and there is a successful field goal or free throw on the play. (4) two/three free throw attempts if the personal foul is on the defender and the offensive player is in the act of shooting an unsuccessful field goal. (5) one free throw attempt plus a penalty free throw attempt if the personal foul is on the defender and the offensive player is not in the act of attempting a field goal if the penalty situation is in effect. (6) two free throw attempts and possession of the ball on the sideline nearest the spot where play was interrupted if an offensive player, or a teammate, is fouled while having a clear-path-to-the-basket. A clear-path-to-the-basket foul occurs if: (i) a personal foul is committed on any offensive player during his team’s transition scoring opportunity; (ii) when the foul occurs, the ball is ahead of the tip of the circle in the backcourt, no defender is ahead of the offensive player with the scoring opportunity and that offensive player is in control of the ball or a pass to him has been released; and (iii) the defensive foul deprives the offensive team of a transition scoring opportunity. A clear-path-to-the-basket foul cannot occur if (i) the offensive player is fouled in the act of shooting or (ii) the foul is caused by the defender’s attempt to intercept or deflect a pass intended for the offensive player with the transition scoring opportunity. (7) two free throw attempts if a personal foul is committed against an offensive player without the ball when his team has at least a one-man advantage on a fast break and the defensive player takes a foul to stop play. (8) one free throw attempt, and possession of the ball on the sideline nearest the spot where play was interrupted but no nearer to the baseline than the free throw line extended, when a defender commits a transition take foul. The free throw may be attempted by any player on the offended team in the game at the time the foul was committed.",
+        "score": 0.6209324598312378
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is entirely supported by the context, addressing all aspects of the question."
+  },
+  {
+    "question": "How long is the shot clock in the NBA?",
+    "reference_answer": "The shot clock shall start at 24 seconds unless otherwise provided in Rule 7.",
+    "naiveRAG_answer": "The shot clock in the NBA starts at 24 seconds unless otherwise provided in Rule 7.",
+    "context": [
+      {
+        "id": "rule_7_sec_i",
+        "text": "Rule 7 SHOT CLOCK, Section Definition: The “shot clock” refers to the timing device that displays a countdown of the time within which the team possessing the ball must attempt a field goal. The shot clock shall start at 24 seconds unless otherwise provided in Rule 7. The shot clock shall be displayed in seconds, except tenths of seconds will also be displayed once the shot clock reaches 4.9 seconds.",
+        "score": 0.7124875783920288
+      },
+      {
+        "id": "rule_7_sec_iv_c",
+        "text": "Rule 7 SHOT CLOCK, Section Resetting Shot Clock (c): The shot clock shall be reset to 24 seconds anytime the following occurs: (1) Change of possession from one team to another (2) Personal foul where ball is being inbounded in backcourt (3) Violation where ball is being inbounded in backcourt (4) Jump balls which are not the result of a held ball caused by the defense (5) All flagrant and punching fouls",
+        "score": 0.6923385858535767
+      },
+      {
+        "id": "rule_7_sec_iv_e",
+        "text": "Rule 7 SHOT CLOCK, Section Resetting Shot Clock (e): The shot clock shall remain the same as when play was interrupted or reset to 14 seconds, whichever is greater, anytime the following occurs: (1) Personal foul by the defense where ball is being inbounded in frontcourt EXCEPTION: Rule 7, Section IV(d)(2) (2) Defensive three-second violation (3) Technical fouls and/or delay-of-game warnings on the defensive team (4) Kicked or punched ball by the defensive team with the ball being inbounded in the offensive team’s frontcourt (5) Infection control (6) Jump balls retained by the offensive team as the result of any violation by the defensive team during a jump ball which results in a frontcourt throw-in",
+        "score": 0.6808465719223022
+      },
+      {
+        "id": "rule_7_sec_ii_i",
+        "text": "Rule 7 SHOT CLOCK, Section Starting and Stopping of Shot Clock (i): If during any period there are 24 seconds OR LESS left to play in the period, the shot clock shall not function following a change of possession; provided, however, the shot clock shall be reactivated and reset to 14 seconds when any of the situations described in Section IV(d) below occur.",
+        "score": 0.6776847839355469
+      },
+      {
+        "id": "rule_7_sec_iv_d",
+        "text": "Rule 7 SHOT CLOCK, Section Resetting Shot Clock (d): The shot clock shall be reset to 14 seconds anytime the following occurs: (1) The offensive team is the first to gain possession after an unsuccessful free throw that remains in play, or an unsuccessful field goal attempt that contacts the basket ring (2) A loose ball foul is called on the defensive team in the sequence immediately following an unsuccessful free throw that remains in play, or an unsuccessful field goal attempt that contacts the basket ring; provided that, as a result of the foul, the offensive team inbounds the ball in the frontcourt NOTE: If, as a result of a defensive foul, the offensive team inbounds the ball in the backcourt, Rule 7, Section IV(c)(2) applies (3) The offensive team retains possession after the ball goes out-of-bounds in the sequence immediately following an unsuccessful free throw that remains in play, or an unsuccessful field goal attempt that contacts the basket ring For purposes of Rule 7, Section IV(d) only, an “unsuccessful field goal attempt that contacts the basket ring” shall include any live ball from the playing court that contacts the basket ring of the team which is in possession.",
+        "score": 0.6483995914459229
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that the shot clock starts at 24 seconds unless otherwise provided in Rule 7."
+  },
+  {
+    "question": "How many timeouts is each team allowed per game?",
+    "reference_answer": "Each team is entitled to seven charged timeouts during regulation play.",
+    "naiveRAG_answer": "Each team is entitled to seven charged timeouts during regulation play.",
+    "context": [
+      {
+        "id": "rule_5_sec_vi_a",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (a): Each team is entitled to seven (7) charged timeouts during regulation play. Each team is limited to no more than four (4) timeouts in the fourth period. Each team will be limited to two (2) team timeouts after the later of (i) the three-minute mark of the fourth period or (ii) the conclusion of the second mandatory timeout of the fourth period.",
+        "score": 0.6888702511787415
+      },
+      {
+        "id": "rule_5_sec_vi_c",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (c): There must be two mandatory timeouts in each period. If neither team has taken a timeout prior to 6:59 of the period, it shall be mandatory for the Official Scorer to take it at the first dead ball and charge it to the home team, or for a neutral site game, the second team named in the official schedule. If no subsequent timeouts are taken prior to 2:59, it shall be mandatory for the Official Scorer to take it and charge it to the team not previously charged. The Official Scorer shall notify a team when it has been charged with a mandatory time-out. Mandatory timeouts shall be 2:45 for local games and 3:15 for national games. Any additional team timeouts in a period beyond those which are mandatory shall be 1:15. No mandatory timeout may be charged during an official’s suspension-of-play. EXCEPTION: Suspension-of-play for Infection Control. See Comments on the Rules, Section II(N).",
+        "score": 0.6119370460510254
+      },
+      {
+        "id": "rule_5_sec_vi_g",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (g): If a timeout is charged to the offensive team during the last two minutes of the fourth period and/or last two minutes of any overtime period and (1) the ball is out-of-bounds in the backcourt (except for a suspension of play after the team had advanced the ball), or (2) after securing the ball from a rebound in the backcourt and prior to any advance of the ball, or (3) after the offensive team secures the ball from a change of possession in the backcourt and prior to any advance of the ball, the timeout should be granted. Upon resumption of play, the team granted the timeout shall have the option of putting the ball into play at the 28’ hash mark in the frontcourt or at the designated spot out-of-bounds. If the ball is put into play at the hash mark, the ball may be passed into either the frontcourt or backcourt. If it is passed into the backcourt, the team will receive a new 8-second count. However, once the ball is (1) thrown in from out-of-bounds, or (2) dribbled or passed after receiving it from a rebound or a change of possession, the timeout shall be granted, and, upon resumption of play, the ball shall be in-bounded on the sideline where play was interrupted. In order for the option to be available following these conditions, a second timeout must be granted to the offensive team. The time on the game clock and the shot clock shall remain as when the timeout was called.",
+        "score": 0.5729160308837891
+      },
+      {
+        "id": "rule_14_sec_v_f",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Impact on Timeouts (f): If a team attempts to utilize a Challenge to trigger instant replay review of an event when that team has no remaining timeouts, no Challenge will take place, and that team shall be charged with an excessive timeout, for which the penalty is a Technical Foul.",
+        "score": 0.5720722079277039
+      },
+      {
+        "id": "rule_14_sec_v_d",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Impact on Timeouts (d): If a team utilizes its first Challenge to trigger instant replay review of an event that preceded the opposing team’s mandatory timeout, the team that is ultimately charged with the timeout depends on whether the Challenge is successful: (1) If the Challenge is unsuccessful, the challenging team will be assigned the timeout and, notwithstanding that the Challenge coincided with the opposing team’s mandatory timeout, the opposing team will not be charged for the timeout (and, if another mandatory timeout is remaining in the period, the next mandatory timeout will be assigned to the opposing team); and (2) If the Challenge is successful, the challenging team will not be assigned a timeout and the opposing team will be charged with the timeout. If a team utilizes its second Challenge to trigger instant replay review of an event that preceded the opposing team’s mandatory timeout, the challenging team will be assigned the timeout (even if the Challenge is successful).",
+        "score": 0.5658350586891174
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that each team is entitled to seven charged timeouts during regulation play."
+  },
+  {
+    "question": "How many players are on each team on the court at one time?",
+    "reference_answer": "Each team shall consist of five players.",
+    "naiveRAG_answer": "Five players are on each team on the court at one time.",
+    "context": [
+      {
+        "id": "rule_3_sec_i_a",
+        "text": "Rule 3 PLAYERS, SUBSTITUTES, AND COACHES, Section Team (a): Each team shall consist of five players. A player is disqualified from the game when he receives his sixth personal foul. No team may be reduced to less than five players. If a player in the game receives his sixth personal foul and all substitutes have already been disqualified, said player shall remain in the game and shall be charged with a personal and team foul. A technical foul also shall be assessed against his team. All subsequent personal fouls, including offensive fouls, shall be treated similarly. All players who have six or more personal fouls and remain in the game shall be treated similarly.",
+        "score": 0.523858368396759
+      },
+      {
+        "id": "rule_3_sec_iv_d",
+        "text": "Rule 3 PLAYERS, SUBSTITUTES, AND COACHES, Section The Coach and Others (d): The first row of a team’s bench shall be occupied only by a league-approved head coach, a maximum of three assistant coaches, players, and a trainer. During an altercation, the head and assistant coaches are permitted on the court as “peacemakers”.",
+        "score": 0.49741053581237793
+      },
+      {
+        "id": "rule_12_sec_iii_a",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Number of Players (a): If the ball is put into play and remains in play with one team having six or more players on the court, a non-unsportsmanlike technical foul will be assessed on the team with too many players and such team would lose possession if it had possession at the time the violation was discovered. Immediately following the free throw awarded for the technical foul, the team with the correct number of players will instruct the Crew Chief to: (1) resume play from the point in time when the technical foul was assessed, under the same conditions as would have prevailed had there been no error with a throw-in, jump ball, or foul shot, as appropriate. If the ball is to be put into play with a throw-in, the team who shot the free throw will be awarded possession unless that team just scored and the error was discovered prior to the throw-in being released by the team with six or more players. (2) nullify all play that occurred from the point in time when the ball was put into play with one team having six or more players on the court and ending when the technical foul was assessed, reset the game and shot clock to the point in time when the ball was put into play, and if the ball was put into play by: (i) a throw-in, the ball shall be returned to the original throw-in spot with the ball awarded to the team with the correct number of players, or (ii) a missed free throw that remained in play, a jump ball shall be held at center court between any two players in the game, or (iii) a jump ball, the ball shall be returned to the original jump ball spot and a jump ball held with the same two players. EXCEPTION: Acts of unsportsmanlike conduct and all flagrant fouls, and points scored from any resulting free throws, shall not be nullified.",
+        "score": 0.4874722957611084
+      },
+      {
+        "id": "rule_1_sec_ii_f",
+        "text": "Rule 1 COURT DIMENSIONS—EQUIPMENT, Section Equipment (f): (1) The ball shall be an officially approved NBA ball between 7 ½ and 8 ½ pounds pressure. (2) A minimum of nine balls must be made available to each team for pre-game warmup.",
+        "score": 0.4673643708229065
+      },
+      {
+        "id": "rule_4_sec_vi_b",
+        "text": "Rule 4 DEFINITIONS, Section Frontcourt/Backcourt (b): A team’s backcourt consists of the entire midcourt line and the rest of the court to include the opponent’s basket and inbounds part of the backboard.",
+        "score": 0.440261572599411
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that each team shall consist of five players."
+  },
+  {
+    "question": "What is the duration of each quarter in an NBA game?",
+    "reference_answer": "All periods of regulation play in the NBA will be twelve minutes.",
+    "naiveRAG_answer": "Not found in the provided context.",
+    "context": [
+      {
+        "id": "rule_5_sec_ii_f",
+        "text": "Rule 5 SCORING AND TIMING, Section Timing (f): The game is considered to be in the two-minute part when the game clock shows 2:00 or less time remaining in the period.",
+        "score": 0.5399826765060425
+      },
+      {
+        "id": "rule_5_sec_vi_a",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (a): Each team is entitled to seven (7) charged timeouts during regulation play. Each team is limited to no more than four (4) timeouts in the fourth period. Each team will be limited to two (2) team timeouts after the later of (i) the three-minute mark of the fourth period or (ii) the conclusion of the second mandatory timeout of the fourth period.",
+        "score": 0.5189155340194702
+      },
+      {
+        "id": "rule_5_sec_vi_g",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (g): If a timeout is charged to the offensive team during the last two minutes of the fourth period and/or last two minutes of any overtime period and (1) the ball is out-of-bounds in the backcourt (except for a suspension of play after the team had advanced the ball), or (2) after securing the ball from a rebound in the backcourt and prior to any advance of the ball, or (3) after the offensive team secures the ball from a change of possession in the backcourt and prior to any advance of the ball, the timeout should be granted. Upon resumption of play, the team granted the timeout shall have the option of putting the ball into play at the 28’ hash mark in the frontcourt or at the designated spot out-of-bounds. If the ball is put into play at the hash mark, the ball may be passed into either the frontcourt or backcourt. If it is passed into the backcourt, the team will receive a new 8-second count. However, once the ball is (1) thrown in from out-of-bounds, or (2) dribbled or passed after receiving it from a rebound or a change of possession, the timeout shall be granted, and, upon resumption of play, the ball shall be in-bounded on the sideline where play was interrupted. In order for the option to be available following these conditions, a second timeout must be granted to the offensive team. The time on the game clock and the shot clock shall remain as when the timeout was called.",
+        "score": 0.5131970643997192
+      },
+      {
+        "id": "rule_5_sec_ii_d",
+        "text": "Rule 5 SCORING AND TIMING, Section Timing (d): 2:30 will be permitted between the first and second periods, the third and fourth periods, and before any overtime period during local games. For national TV games 3:30 will be permitted between the first and second periods, and between the third and fourth periods and 2:30 before any overtime period.",
+        "score": 0.5108179450035095
+      },
+      {
+        "id": "rule_5_sec_iii_a",
+        "text": "Rule 5 SCORING AND TIMING, Section End of Period (a): Each period ends when time expires. EXCEPTIONS: (1) If a field goal attempt is in flight toward the basket, the period ends when the goal is made, missed, or touched by an offensive player. (2) If the official’s whistle sounds prior to :00.0 on the clock, the period is not over and time must be added to the clock. (3) If a field goal attempt is in flight toward the basket when the horn sounds ending a period, and it subsequently is touched by: (a) a defensive player, the goal, if successful, shall count; or (b) an offensive player, the period has ended. (4) If a timeout request is made as time expires for a period, the period ends and the timeout shall not be granted. (5) If there is a foul called on or by a player in the act of shooting the period will end after the foul is penalized. (See Rule 13, Section II(b)(ii)).",
+        "score": 0.5101896524429321
+      }
+    ],
+    "faithfulness": 1,
+    "answer_relevance": 1,
+    "context_relevance": 1,
+    "reasoning": "The answer is irrelevant to the question and the context does not provide any information about the duration of each quarter in an NBA game."
+  },
+  {
+    "question": "How far is the free throw line from the backboard?",
+    "reference_answer": "The free throw line shall be 15 feet from the plane of the face of the backboard.",
+    "naiveRAG_answer": "The free throw line is 15 feet from the plane of the face of the backboard.",
+    "context": [
+      {
+        "id": "rule_1_sec_i_c",
+        "text": "Rule 1 COURT DIMENSIONS—EQUIPMENT, Section Court and Dimensions (c): A free throw line shall be drawn (2” wide) across each of the circles indicated in the court diagram. It shall be parallel to the end line and shall be 15’ from the plane of the face of the backboard.",
+        "score": 0.7307174205780029
+      },
+      {
+        "id": "rule_1_sec_i_b",
+        "text": "Rule 1 COURT DIMENSIONS—EQUIPMENT, Section Court and Dimensions (b): A free throw lane shall be marked at each end of the court with dimensions and markings as shown in the court diagram. All boundary lines are part of the lane; lane space marks and neutral zone marks are not. The areas identified by the lane space markings are 2” by 6” inches.",
+        "score": 0.5991882681846619
+      },
+      {
+        "id": "rule_9_sec_i_b",
+        "text": "Rule 9 FREE THROWS AND PENALTIES, Section Positions and Violations (b): The free throw shooter may not step over the plane of the free throw line until the ball touches the basket ring, backboard, or the free throw ends. PENALTY: This is a violation by the shooter on all free throw attempts and no point can be scored. If there is a violation and the free throw attempt is to remain in play, the opposing team shall inbound on either sideline at the free throw line extended. If both teams commit a violation during this free throw, a jump ball shall be administered at midcourt between any two opponents in the game. If there is a violation and the free throw attempt is not to remain in play, then play will continue from that point. If an opponent also commits a violation (double violation), then play will also continue from that point.",
+        "score": 0.5926002264022827
+      },
+      {
+        "id": "rule_1_sec_i_f",
+        "text": "Rule 1 COURT DIMENSIONS—EQUIPMENT, Section Court and Dimensions (f): Two hash marks shall be drawn (2” wide) perpendicular to the baseline on each side of the free throw lane line. These hash marks shall be 3’ from the free throw lane line and extend 6” onto the court.",
+        "score": 0.5757918953895569
+      },
+      {
+        "id": "rule_comments_sec_xvi",
+        "text": "Rule COMMENTS Comments on the Rules, Section Five-Second Back-to-the-Basket Violation: An offensive player in his frontcourt below the free throw line extended shall not be permitted to dribble with his back or side to the basket for more than five seconds. The count ends when (1) the player picks up the ball, (2) dribbles above the free throw line extended, or (3) a defensive player deflects the ball away. PENALTY: Loss of ball. The ball is awarded to the opposing team out-of-bounds on the nearest sideline at the free throw line extended.",
+        "score": 0.574510395526886
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that the free throw line is 15 feet from the plane of the face of the backboard."
+  },
+  {
+    "question": "How many seconds does a team have to advance the ball past half court?",
+    "reference_answer": "The team on offense must bring the ball across the midcourt line within 8 seconds.",
+    "naiveRAG_answer": "A team has 8 seconds to advance the ball past half court.",
+    "context": [
+      {
+        "id": "rule_4_sec_vi_f",
+        "text": "Rule 4 DEFINITIONS, Section Frontcourt/Backcourt (f): The team on offense must bring the ball across the midcourt line within 8 seconds. EXCEPTION: (1) kicked ball, (2) punched ball, (3) personal or technical foul on the defensive team, (4) delay-of-game warning on the defensive team, or (5) infection control.",
+        "score": 0.5917038917541504
+      },
+      {
+        "id": "rule_5_sec_vi_g",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (g): If a timeout is charged to the offensive team during the last two minutes of the fourth period and/or last two minutes of any overtime period and (1) the ball is out-of-bounds in the backcourt (except for a suspension of play after the team had advanced the ball), or (2) after securing the ball from a rebound in the backcourt and prior to any advance of the ball, or (3) after the offensive team secures the ball from a change of possession in the backcourt and prior to any advance of the ball, the timeout should be granted. Upon resumption of play, the team granted the timeout shall have the option of putting the ball into play at the 28’ hash mark in the frontcourt or at the designated spot out-of-bounds. If the ball is put into play at the hash mark, the ball may be passed into either the frontcourt or backcourt. If it is passed into the backcourt, the team will receive a new 8-second count. However, once the ball is (1) thrown in from out-of-bounds, or (2) dribbled or passed after receiving it from a rebound or a change of possession, the timeout shall be granted, and, upon resumption of play, the ball shall be in-bounded on the sideline where play was interrupted. In order for the option to be available following these conditions, a second timeout must be granted to the offensive team. The time on the game clock and the shot clock shall remain as when the timeout was called.",
+        "score": 0.5809866786003113
+      },
+      {
+        "id": "rule_10_sec_viii",
+        "text": "Rule 10 VIOLATIONS AND PENALTIES, Section Eight-Second Rule: A team shall not be in continuous possession of a ball which is in its backcourt for more than 8 consecutive seconds. EXCEPTION (1): A new 8 seconds is awarded if the defense: (1) kicks or punches the ball, (2) is assessed a personal or technical foul, or (3) is issued a delay of game warning. EXCEPTION (2): A new 8 seconds is awarded: (1) if play is suspended to administer",
+        "score": 0.5793099403381348
+      },
+      {
+        "id": "rule_comments_sec_xvi",
+        "text": "Rule COMMENTS Comments on the Rules, Section Five-Second Back-to-the-Basket Violation: An offensive player in his frontcourt below the free throw line extended shall not be permitted to dribble with his back or side to the basket for more than five seconds. The count ends when (1) the player picks up the ball, (2) dribbles above the free throw line extended, or (3) a defensive player deflects the ball away. PENALTY: Loss of ball. The ball is awarded to the opposing team out-of-bounds on the nearest sideline at the free throw line extended.",
+        "score": 0.558722734451294
+      },
+      {
+        "id": "rule_14_sec_ii_a",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Procedure to Initiate the Challenge (a): To initiate a Challenge, the challenging team must take the following steps in sequence: (1) The challenging team must call a legal timeout immediately after the call in question (unless a mandatory timeout or timeout called by the opposing team is already underway); (2) The challenging team’s head coach must simultaneously signal for a Challenge by utilizing the instant replay signal (i.e., twirling an index finger) toward the game official(s) during the same interaction with the game official(s) in which the timeout was called or, if the timeout was called by a player on the challenging team, the challenging team’s head coach must simultaneously signal for the Challenge by utilizing the instant replay signal toward the game officials as the game official is notifying the scorekeeper of the timeout; and (3) During the same interaction with the game official(s) in which the challenging team’s head coach signaled for the Challenge, the challenging team’s head coach must notify the game official(s) of the specific event that the team is challenging. For purposes of this rule only, “immediately” shall mean that a timeout is called prior to the ball being given to the thrower-in, the ball being given to the free throw shooter, or the ball being tossed on a jump ball, whichever is applicable (unless a mandatory timeout or timeout called by the opposing team is already underway).",
+        "score": 0.5567393898963928
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that a team on offense must bring the ball across the midcourt line within 8 seconds."
+  },
+  {
+    "question": "What is the penalty for a technical foul in terms of free throws?",
+    "reference_answer": "A technical foul is the penalty for unsportsmanlike conduct or violations by team members on the floor or seated on the bench.",
+    "naiveRAG_answer": "No free throw attempts are awarded when a double technical foul is assessed. Technical fouls assessed to opposing teams during the same dead ball and prior to the administering of any free throw attempt for the first technical foul, shall be interpreted as a double technical foul.\n\nTechnical fouls shall be assessed to players, coaches, or trainers for fighting. No free throws will be attempted. The participants will be ejected immediately.",
+    "context": [
+      {
+        "id": "rule_4_sec_iv_b",
+        "text": "Rule 4 DEFINITIONS, Section Fouls (b): A technical foul is the penalty for unsportsmanlike conduct or violations by team members on the floor or seated on the bench.",
+        "score": 0.696414589881897
+      },
+      {
+        "id": "rule_12_sec_vii_e",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Fines (e): Any player who in the opinion of the officials has deliberately hung on the basket ring shall be assessed a non-unsportsmanlike technical foul and a fine of at least $2,000. EXCEPTION: An offensive or defensive player may hang on the basket ring, backboard, or support to prevent an injury to himself or another player, with no penalty.",
+        "score": 0.6728782653808594
+      },
+      {
+        "id": "rule_12_sec_v_d",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Conduct (d): A technical foul shall be assessed for unsportsmanlike tactics such as: (1) Disrespectfully addressing an official (2) Physically contacting an official (3) Overt actions indicating resentment to a call or no-call (4) Use of profanity (5) A coach entering onto the court without permission of an official (6) A deliberately-thrown elbow or any unnatural physical act towards an opponent with no contact involved (7) Taunting",
+        "score": 0.6689721345901489
+      },
+      {
+        "id": "rule_12_sec_v_o",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Conduct (o): No free throw attempts are awarded when a double technical foul is assessed. Technical fouls assessed to opposing teams during the same dead ball and prior to the administering of any free throw attempt for the first technical foul, shall be interpreted as a double technical foul.",
+        "score": 0.6648843288421631
+      },
+      {
+        "id": "rule_12_sec_vi_a",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Fighting Fouls (a): Technical fouls shall be assessed to players, coaches, or trainers for fighting. No free throws will be attempted. The participants will be ejected immediately.",
+        "score": 0.6481126546859741
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is entirely supported by the context, directly addressing the question with clear and relevant information."
+  },
+  {
+    "question": "How many challenges does each coach get per game?",
+    "reference_answer": "Each team is entitled to one Challenge per game. If a team's first Challenge is successful, the team will be awarded a second Challenge.",
+    "naiveRAG_answer": "Each coach is entitled to one challenge per game. If a coach's first challenge is successful, they will be awarded a second challenge.",
+    "context": [
+      {
+        "id": "rule_14_sec_i_b",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Overview (b): Each team is entitled to one Challenge per game. If a team’s first Challenge is successful, the team will be awarded a second Challenge.",
+        "score": 0.6360878944396973
+      },
+      {
+        "id": "rule_14_sec_v_d",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Impact on Timeouts (d): If a team utilizes its first Challenge to trigger instant replay review of an event that preceded the opposing team’s mandatory timeout, the team that is ultimately charged with the timeout depends on whether the Challenge is successful: (1) If the Challenge is unsuccessful, the challenging team will be assigned the timeout and, notwithstanding that the Challenge coincided with the opposing team’s mandatory timeout, the opposing team will not be charged for the timeout (and, if another mandatory timeout is remaining in the period, the next mandatory timeout will be assigned to the opposing team); and (2) If the Challenge is successful, the challenging team will not be assigned a timeout and the opposing team will be charged with the timeout. If a team utilizes its second Challenge to trigger instant replay review of an event that preceded the opposing team’s mandatory timeout, the challenging team will be assigned the timeout (even if the Challenge is successful).",
+        "score": 0.5854224562644958
+      },
+      {
+        "id": "rule_14_sec_ii_b",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Procedure to Initiate the Challenge (b): To initiate a Challenge of an event that immediately preceded a mandatory timeout or timeout called by the opposing team, no later than 30 seconds from the start of the timeout (as measured by the timeout clock), the challenging team’s head coach must take the following steps in sequence: (1) Signal for a Challenge by utilizing the instant replay signal toward the game officials; and (2) During the same interaction with the game official(s) in which the challenging team’s head coach signaled for the Challenge, the challenging team’s head coach must notify the game official(s) of the specific event that the team is challenging.",
+        "score": 0.5853992700576782
+      },
+      {
+        "id": "rule_14_sec_v_c",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Impact on Timeouts (c): If a team utilizes a Challenge to trigger instant replay review of an event that immediately preceded the challenging team’s mandatory timeout, the challenging team will lose its mandatory timeout (even if the Challenge is successful). If the Challenge is unsuccessful, the challenging team will only be charged one timeout (i.e., it will not be charged a timeout for both the mandatory timeout and the Challenge).",
+        "score": 0.5792153477668762
+      },
+      {
+        "id": "rule_14_sec_v_e",
+        "text": "Rule 14 COACH’S CHALLENGE, Section Impact on Timeouts (e): If a team utilizes its first Challenge to trigger instant replay review of an event that preceded a timeout called by the opposing team, the team that is ultimately charged with the timeout depends on whether the Challenge is successful: (1) If the Challenge is unsuccessful, the challenging team will be assigned the timeout and, notwithstanding that the opposing team initially called the timeout, the opposing team will not be charged for the timeout; and (2) If the Challenge is successful, the challenging team will not be assigned a timeout and the opposing team will be charged with the timeout. If a team utilizes its second Challenge to trigger instant replay review of an event that preceded a timeout called by the opposing team, the challenging team will be assigned the timeout (even if the Challenge is successful).",
+        "score": 0.5779902935028076
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that each team is entitled to one challenge per game, and if a team's first challenge is successful, they will be awarded a second challenge."
+  },
+  {
+    "question": "What happens when a player commits a flagrant foul penalty 2?",
+    "reference_answer": "Any player who is assessed a flagrant foul penalty 2 must be ejected and will be fined a minimum of $2,000.",
+    "naiveRAG_answer": "When a player commits a flagrant foul penalty 2, the following occurs:\n- Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended.\n- If the offended player is injured and unable to attempt his free throws, his coach will select a substitute and any player from the team is eligible to attempt the free throws.\n- This substitute may not be replaced until the ball is legally touched by a player on the court.\n- The injured player may return to the game at any time after the free throws are attempted.\n- This is an unsportsmanlike act and the offender is ejected.",
+    "context": [
+      {
+        "id": "rule_12_sec_iv_a",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Flagrant Foul (a): If contact committed against a player, with or without the ball, is interpreted to be unnecessary, a flagrant foul—penalty (1) will be assessed. A personal foul is charged to the offender and a team foul is charged to the team. PENALTY: (1) Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended. (2) If the offended player is injured and unable to attempt his free throws, his coach will select one of the remaining four players in the game to attempt the free throws. (3) His coach will pick the substitute, who may not be replaced until the ball is legally touched by a player on the court. (EXCEPTION: Rule 3, Section V(e).) (4) The injured player may not return to the game. (EXCEPTION: Rule 9, Section II(a)(2).) (5) A player will be ejected if he commits two flagrant fouls in the same game.",
+        "score": 0.6723508834838867
+      },
+      {
+        "id": "rule_12_sec_iv_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Flagrant Foul (b): If contact committed against a player, with or without the ball, is interpreted to be unnecessary and excessive, a flagrant foul—penalty (2) will be assessed. A personal foul is charged to the offender and a team foul is charged to the team. PENALTY: (1) Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended. (2) If the offended player is injured and unable to attempt his free throws, his coach will select a substitute and any player from the team is eligible to attempt the free throws. (3) This substitute may not be replaced until the ball is legally touched by a player on the court. (EXCEPTION: Rule 3, Section V(e).) (4) The injured player may return to the game at any time after the free throws are attempted. (5) This is an unsportsmanlike act and the offender is ejected.",
+        "score": 0.6624200344085693
+      },
+      {
+        "id": "rule_12_sec_xi_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Transition Take Foul (b): In the event that the personal foul committed is a flagrant or punching foul, the play shall be administered as follows: (1) A personal foul and team foul shall be assessed and the free throw shooter shall be awarded two free throw attempts. The free throws may be attempted by any player in the game at the time the flagrant foul was committed. (2) If a flagrant foul—penalty (1) is assessed and the offended player is unable to participate in the game, the substitute will be selected by his coach. The two free throws may be attempted by any of the four remaining players in the game. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game. (3) If a flagrant foul—penalty (2) or punching foul is assessed and the offended player is unable to attempt his free throws because of injury, the substitute will be selected by his coach. The two free throws may be attempted by the substitute or any of the four remaining players in the game. If the offended player is unable to attempt his free throws as a result of being ejected, any of the four remaining players may attempt the free throws. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game.",
+        "score": 0.6596129536628723
+      },
+      {
+        "id": "rule_12_sec_x_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Away-From-The-Play Foul (b): In the event that the personal foul committed is a flagrant or punching foul, the play shall be administered as follows: (1) A personal foul and team foul shall be assessed and the free throw shooter shall be awarded two free throw attempts. The free throws may be attempted by any player in the game at the time the flagrant foul was committed. (2) If a flagrant foul—penalty (1) is assessed and the offended player is unable to participate in the game, the substitute will be selected by his coach. The two free throws may be attempted by any of the four remaining players in the game. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game. (3) If a flagrant foul—penalty (2) or punching foul is assessed and the offended player is unable to attempt his free throws because of injury, the substitute will be selected by his coach. The two free throws may be attempted by the substitute or any of the four remaining players in the game. If the offended player is unable to attempt his free throws as a result of being ejected, any of the four remaining players may attempt the free throws. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game.",
+        "score": 0.6535048484802246
+      },
+      {
+        "id": "rule_12_sec_i_e",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Types (e): Contact which occurs on the hand of the offensive player, while that part of the hand is in contact with the ball, is legal. EXCEPTION: Flagrant and punching fouls. PENALTIES: The offender is charged with a personal foul. The offending team is charged with a team foul if the illegal contact was caused by the defender. There is no team foul if there are personal fouls on one member of each team or the personal foul is against an offensive player. The offended team is awarded: (1) the ball out-of-bounds on the sideline at the nearest spot where play was interrupted but no nearer to the baseline than the free throw line extended if an offensive foul is assessed. (2) the ball out-of-bounds on the sideline where play was interrupted but no nearer to the baseline than the free throw line extended if the personal foul is on the defender and if the penalty situation is not in effect. (3) one free throw attempt if the personal foul is on the defender and there is a successful field goal or free throw on the play. (4) two/three free throw attempts if the personal foul is on the defender and the offensive player is in the act of shooting an unsuccessful field goal. (5) one free throw attempt plus a penalty free throw attempt if the personal foul is on the defender and the offensive player is not in the act of attempting a field goal if the penalty situation is in effect. (6) two free throw attempts and possession of the ball on the sideline nearest the spot where play was interrupted if an offensive player, or a teammate, is fouled while having a clear-path-to-the-basket. A clear-path-to-the-basket foul occurs if: (i) a personal foul is committed on any offensive player during his team’s transition scoring opportunity; (ii) when the foul occurs, the ball is ahead of the tip of the circle in the backcourt, no defender is ahead of the offensive player with the scoring opportunity and that offensive player is in control of the ball or a pass to him has been released; and (iii) the defensive foul deprives the offensive team of a transition scoring opportunity. A clear-path-to-the-basket foul cannot occur if (i) the offensive player is fouled in the act of shooting or (ii) the foul is caused by the defender’s attempt to intercept or deflect a pass intended for the offensive player with the transition scoring opportunity. (7) two free throw attempts if a personal foul is committed against an offensive player without the ball when his team has at least a one-man advantage on a fast break and the defensive player takes a foul to stop play. (8) one free throw attempt, and possession of the ball on the sideline nearest the spot where play was interrupted but no nearer to the baseline than the free throw line extended, when a defender commits a transition take foul. The free throw may be attempted by any player on the offended team in the game at the time the foul was committed.",
+        "score": 0.6209324598312378
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is entirely supported by the context and directly addresses the question."
+  },
+  {
+    "question": "How long is each overtime period in the NBA?",
+    "reference_answer": "All overtime periods of play will be five minutes.",
+    "naiveRAG_answer": "2:30 is the length of each overtime period in the NBA.",
+    "context": [
+      {
+        "id": "rule_5_sec_iv",
+        "text": "Rule 5 SCORING AND TIMING, Section Tie Score—Overtime: If the score is tied at the end of the fourth period, play shall resume in 2:30 without change of baskets for any of the overtime periods required.",
+        "score": 0.6190521717071533
+      },
+      {
+        "id": "rule_5_sec_vi_g",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (g): If a timeout is charged to the offensive team during the last two minutes of the fourth period and/or last two minutes of any overtime period and (1) the ball is out-of-bounds in the backcourt (except for a suspension of play after the team had advanced the ball), or (2) after securing the ball from a rebound in the backcourt and prior to any advance of the ball, or (3) after the offensive team secures the ball from a change of possession in the backcourt and prior to any advance of the ball, the timeout should be granted. Upon resumption of play, the team granted the timeout shall have the option of putting the ball into play at the 28’ hash mark in the frontcourt or at the designated spot out-of-bounds. If the ball is put into play at the hash mark, the ball may be passed into either the frontcourt or backcourt. If it is passed into the backcourt, the team will receive a new 8-second count. However, once the ball is (1) thrown in from out-of-bounds, or (2) dribbled or passed after receiving it from a rebound or a change of possession, the timeout shall be granted, and, upon resumption of play, the ball shall be in-bounded on the sideline where play was interrupted. In order for the option to be available following these conditions, a second timeout must be granted to the offensive team. The time on the game clock and the shot clock shall remain as when the timeout was called.",
+        "score": 0.582067608833313
+      },
+      {
+        "id": "rule_5_sec_ii_d",
+        "text": "Rule 5 SCORING AND TIMING, Section Timing (d): 2:30 will be permitted between the first and second periods, the third and fourth periods, and before any overtime period during local games. For national TV games 3:30 will be permitted between the first and second periods, and between the third and fourth periods and 2:30 before any overtime period.",
+        "score": 0.5584061741828918
+      },
+      {
+        "id": "rule_5_sec_vii_e",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeout Requests (e): A player shall not be granted any timeout if both of his feet are in the air and any part of his body has broken the vertical plane of the boundary line. This rule also applies to the midcourt line except during throw-ins in the last two minutes of the fourth or last two minutes of any overtime period.",
+        "score": 0.5537452697753906
+      },
+      {
+        "id": "rule_5_sec_iii_a",
+        "text": "Rule 5 SCORING AND TIMING, Section End of Period (a): Each period ends when time expires. EXCEPTIONS: (1) If a field goal attempt is in flight toward the basket, the period ends when the goal is made, missed, or touched by an offensive player. (2) If the official’s whistle sounds prior to :00.0 on the clock, the period is not over and time must be added to the clock. (3) If a field goal attempt is in flight toward the basket when the horn sounds ending a period, and it subsequently is touched by: (a) a defensive player, the goal, if successful, shall count; or (b) an offensive player, the period has ended. (4) If a timeout request is made as time expires for a period, the period ends and the timeout shall not be granted. (5) If there is a foul called on or by a player in the act of shooting the period will end after the foul is penalized. (See Rule 13, Section II(b)(ii)).",
+        "score": 0.5235519409179688
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that 'play shall resume in 2:30 without change of baskets for any of the overtime periods required'."
+  },
+  {
+    "question": "How long is halftime in an NBA game?",
+    "reference_answer": "Fifteen minutes will be permitted between halves of all games.",
+    "naiveRAG_answer": "Not found in the provided context.",
+    "context": [
+      {
+        "id": "rule_5_sec_ii_f",
+        "text": "Rule 5 SCORING AND TIMING, Section Timing (f): The game is considered to be in the two-minute part when the game clock shows 2:00 or less time remaining in the period.",
+        "score": 0.5336946249008179
+      },
+      {
+        "id": "rule_2_sec_viii_a",
+        "text": "Rule 2 OFFICIALS AND THEIR DUTIES, Section Duties of Timers (a): The timers shall note when each half is to start and shall notify the crew chief and both coaches five minutes before this time, or cause them to be notified at least five minutes before the half is to start. They shall signal the scorers two minutes before starting time. They shall record playing time and time of stoppages as provided in the rules. The official timer and the shot clock operator shall be provided with digital stop watches to be used in case the official timeout, game clock, and/or shot clocks/game clocks located above the backboards fail to work properly.",
+        "score": 0.53217613697052
+      },
+      {
+        "id": "rule_12_sec_vii_f",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Fines (f): At halftime and the end of each game, the coach and his/her players are to leave the court and go directly to their dressing room, without pause or delay. There is to be absolutely no talking to game officials.",
+        "score": 0.5225390195846558
+      },
+      {
+        "id": "rule_5_sec_iii_a",
+        "text": "Rule 5 SCORING AND TIMING, Section End of Period (a): Each period ends when time expires. EXCEPTIONS: (1) If a field goal attempt is in flight toward the basket, the period ends when the goal is made, missed, or touched by an offensive player. (2) If the official’s whistle sounds prior to :00.0 on the clock, the period is not over and time must be added to the clock. (3) If a field goal attempt is in flight toward the basket when the horn sounds ending a period, and it subsequently is touched by: (a) a defensive player, the goal, if successful, shall count; or (b) an offensive player, the period has ended. (4) If a timeout request is made as time expires for a period, the period ends and the timeout shall not be granted. (5) If there is a foul called on or by a player in the act of shooting the period will end after the foul is penalized. (See Rule 13, Section II(b)(ii)).",
+        "score": 0.5105778574943542
+      },
+      {
+        "id": "rule_7_sec_i",
+        "text": "Rule 7 SHOT CLOCK, Section Definition: The “shot clock” refers to the timing device that displays a countdown of the time within which the team possessing the ball must attempt a field goal. The shot clock shall start at 24 seconds unless otherwise provided in Rule 7. The shot clock shall be displayed in seconds, except tenths of seconds will also be displayed once the shot clock reaches 4.9 seconds.",
+        "score": 0.5082254409790039
+      }
+    ],
+    "faithfulness": 1,
+    "answer_relevance": 1,
+    "context_relevance": 1,
+    "reasoning": "The answer is not found in the provided context, and the context is irrelevant to the question."
+  },
+  {
+    "question": "How far is the three-point line from the basket?",
+    "reference_answer": "The three-point field goal area has an arc of 23 feet 9 inches from the middle of the basket which intersects parallel lines 3 feet from the sidelines.",
+    "naiveRAG_answer": "The three-point line is 23'9\" from the middle of the basket.",
+    "context": [
+      {
+        "id": "rule_1_sec_i_d",
+        "text": "Rule 1 COURT DIMENSIONS—EQUIPMENT, Section Court and Dimensions (d): The three-point field goal area has parallel lines 3’ from the sidelines, extending from the baseline and an arc of 23’9” from the middle of the basket which intersects the parallel lines.",
+        "score": 0.6965049505233765
+      },
+      {
+        "id": "rule_1_sec_i_c",
+        "text": "Rule 1 COURT DIMENSIONS—EQUIPMENT, Section Court and Dimensions (c): A free throw line shall be drawn (2” wide) across each of the circles indicated in the court diagram. It shall be parallel to the end line and shall be 15’ from the plane of the face of the backboard.",
+        "score": 0.599261462688446
+      },
+      {
+        "id": "rule_5_sec_i_c",
+        "text": "Rule 5 SCORING AND TIMING, Section Scoring (c): A successful field goal attempt from the area outside the three-point field goal line shall count as three points. (1) The shooter must have at least one foot on the floor outside the three-point field goal line prior to the attempt. (2) The shooter may not be touching the floor on or inside the three-point field goal line. (3) The shooter may contact the three-point field goal line, or land in the two-point field goal area, after the ball is released.",
+        "score": 0.5553666353225708
+      },
+      {
+        "id": "rule_10_sec_vii_e",
+        "text": "Rule 10 VIOLATIONS AND PENALTIES, Section Defensive Three-Second Rule (e): If the defender is guarding the player with the ball, he may be located in the 16-foot lane. This defender is not required to be in an actively guarding/arms distance position. If another defender actively guards the player with the ball, the original defender must actively guard an opponent or exit the 16-foot lane. Once the offensive player passes the ball, the defender must actively guard an opponent or exit the 16-foot lane. PENALTY: A technical foul shall be assessed. The offensive team retains possession on the sideline at the free throw line extended nearest the point of interruption. The shot clock shall remain the same as when play was interrupted or reset to 14 seconds, whichever is greater. If a violation is whistled during a successful field goal attempt, the violation shall be ignored and play shall resume as after any successful basket.",
+        "score": 0.535652220249176
+      },
+      {
+        "id": "rule_11_sec_i_i",
+        "text": "Rule 11 BASKET INTERFERENCE—GOALTENDING, Section A Player Shall Not: (i): Touch the rim, net, or ball while the ball is in the net, preventing it from clearing the basket. PENALTY: If the violation is at the opponent’s basket, the offended team is awarded two points, if the attempt is from the two point zone and three points if it is from the three point zone. The crediting of the score and subsequent procedure is the same as if the awarded score has resulted from the ball having gone through the basket, except that the official shall hand the ball to a player of the team entitled to the throw-in. If the violation is at a team’s own basket, no points can be scored and the ball is awarded to the offended team at the free throw line extended on either sideline. If there is a violation by both teams, no points can be scored, and play shall be resumed by a jump ball between any two opponents in the game at the center circle.",
+        "score": 0.5249689221382141
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that the three-point field goal area has an arc of 23'9\" from the middle of the basket."
+  },
+  {
+    "question": "What is a dribble in the NBA?",
+    "reference_answer": "A dribble is movement of the ball, caused by a player in control, who throws or taps the ball to the floor.",
+    "naiveRAG_answer": "A dribble is movement of the ball, caused by a player in control, who throws or taps the ball to the floor.",
+    "context": [
+      {
+        "id": "rule_4_sec_ii",
+        "text": "Rule 4 DEFINITIONS, Section Dribble: A dribble is movement of the ball, caused by a player in control, who throws or taps the ball to the floor.",
+        "score": 0.6735722422599792
+      },
+      {
+        "id": "rule_4_sec_vi_d",
+        "text": "Rule 4 DEFINITIONS, Section Frontcourt/Backcourt (d): A ball being dribbled is (1) in the frontcourt when the ball and both feet of the player are in the frontcourt, (2) in the backcourt if the ball or either foot of the player is in the backcourt.",
+        "score": 0.5977784991264343
+      },
+      {
+        "id": "rule_4_sec_ii_a",
+        "text": "Rule 4 DEFINITIONS, Section Dribble (a): The dribble ends when the dribbler: (1) Touches the ball simultaneously with both hands (2) Permits the ball to come to rest while he is in control of it (3) Tries for a field goal (4) Throws a pass (5) Touches the ball more than once while dribbling, before it touches the floor (6) Loses control (7) Allows the ball to become dead (8) Otherwise gathers the ball (See Rule 4, Section III(b))",
+        "score": 0.533913254737854
+      },
+      {
+        "id": "rule_comments_sec_xiii_c",
+        "text": "Rule COMMENTS Comments on the Rules, Section Traveling (c): In starting a dribble after (1) receiving the ball while standing still, or (2) coming to a legal stop, the ball must be out of the player’s hand before the pivot foot is raised off the floor.",
+        "score": 0.5284441113471985
+      },
+      {
+        "id": "rule_10_sec_ii_e",
+        "text": "Rule 10 VIOLATIONS AND PENALTIES, Section Dribble (e): A player may dribble a second time if he lost control of the ball because of: (1) A field goal attempt at his basket, provided the ball touches the backboard or basket ring (2) An opponent touching the ball (3) A pass or fumble which touches his backboard, basket ring, or is touched by another player. PENALTY: Loss of ball. Ball is awarded to the opposing team on the sideline nearest the spot of the violation but no nearer the baseline than the foul line extended.",
+        "score": 0.5211244821548462
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the provided context, and it fully addresses the question."
+  },
+  {
+    "question": "How long does a player have to attempt a free throw?",
+    "reference_answer": "A free throw attempt must be made within 10 seconds.",
+    "naiveRAG_answer": "A player has 10 seconds to attempt a free throw.",
+    "context": [
+      {
+        "id": "rule_9_sec_i_a",
+        "text": "Rule 9 FREE THROWS AND PENALTIES, Section Positions and Violations (a): When a free throw is awarded, an official shall put the ball in play by delivering it to the free throw shooter. The shooter shall be above the free throw line and within the upper half of the free throw circle. He shall attempt the free throw within 10 seconds of controlling the ball in such a way that the ball enters the basket or touches the ring. PENALTY: If there is a violation and the free throw attempt is to remain in play, the opposing team shall inbound on either sideline at the free throw line extended. If both teams commit a violation during this free throw, a jump ball shall be administered at midcourt between any two opponents in the game. If the opponent’s violation is disconcertion, then a substitute free throw shall be awarded. If there is a violation and the free throw attempt is not to remain in play, then play will continue from that point. If an opponent also commits a violation (double violation), then play will also continue from that point. If the opponent’s violation is disconcertion, then a substitute free throw shall be awarded.",
+        "score": 0.6837137937545776
+      },
+      {
+        "id": "rule_4_sec_v",
+        "text": "Rule 4 DEFINITIONS, Section Free Throw: A free throw is the privilege given a player to score one point by an unhindered attempt for the goal from a position directly behind the free throw line. This attempt must be made within 10 seconds.",
+        "score": 0.6769424676895142
+      },
+      {
+        "id": "rule_9_sec_ii_d",
+        "text": "Rule 9 FREE THROWS AND PENALTIES, Section Shooting of Free Throw (d): If a timeout is granted prior to a free throw attempt, the free throw will be attempted following the timeout.",
+        "score": 0.6345013380050659
+      },
+      {
+        "id": "rule_9_sec_ii_a",
+        "text": "Rule 9 FREE THROWS AND PENALTIES, Section Shooting of Free Throw (a): The free throw(s) awarded because of a personal foul shall be attempted by the offended player. EXCEPTIONS: (1) If the offended player is injured, other than as a result of a flagrant foul or unsportsmanlike conduct, or is ejected from the game and cannot attempt the awarded free throw(s), the opposing coach shall select, from his opponent’s bench, the replacement player. That player will attempt the free throw(s) and the injured player will not be permitted to re-enter the game. The substitute must remain in the game until the ball is legally touched by a player on the court. EXCEPTION: Rule 3, Section V(e) (2) If the offended player is injured and unable to attempt the awarded free throw(s) as a result of a flagrant foul-penalty (1) and/or as a result of a medical determination that a player must undergo a concussion evaluation, his coach may designate any player in the game at that time to attempt the free throw(s). The injured player will not be permitted to re-enter the game; except that the player will be permitted to reenter if he was removed for a concussion evaluation, completed the evaluation required pursuant to the NBA Concussion Policy, and is deemed not to have a concussion. (3) If the offended player is injured and unable to attempt the awarded free throw(s) due to any unsportsmanlike act, his coach may designate any eligible member of the squad to attempt the free throw(s). The injured player will be permitted to reenter the game. (4) If the offended player is disqualified and unable to attempt the awarded free throw(s), his coach shall designate an eligible substitute from the bench. That substitute will attempt the free throw(s) and cannot be removed until the ball is legally touched by a player on the court. EXCEPTION: Rule 3, Section V(e) (5) Away-from-the-play foul—Rule 12B, Section X(a)(1). (6) Transition Take Foul—Rule 12B, Section XI(a).",
+        "score": 0.6333075761795044
+      },
+      {
+        "id": "rule_9_sec_i_b",
+        "text": "Rule 9 FREE THROWS AND PENALTIES, Section Positions and Violations (b): The free throw shooter may not step over the plane of the free throw line until the ball touches the basket ring, backboard, or the free throw ends. PENALTY: This is a violation by the shooter on all free throw attempts and no point can be scored. If there is a violation and the free throw attempt is to remain in play, the opposing team shall inbound on either sideline at the free throw line extended. If both teams commit a violation during this free throw, a jump ball shall be administered at midcourt between any two opponents in the game. If there is a violation and the free throw attempt is not to remain in play, then play will continue from that point. If an opponent also commits a violation (double violation), then play will also continue from that point.",
+        "score": 0.6263756155967712
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that a player must attempt a free throw within 10 seconds of controlling the ball."
+  },
+  {
+    "question": "What is a flagrant foul penalty 1?",
+    "reference_answer": "If contact committed against a player is interpreted to be unnecessary, a flagrant foul penalty 1 will be assessed. Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended.",
+    "naiveRAG_answer": "A flagrant foul penalty 1 is assessed when unnecessary contact is committed against a player, with or without the ball. A personal foul is charged to the offender and a team foul is charged to the team. The penalty is as follows:\n1. Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended.\n2. If the offended player is injured and unable to attempt his free throws, his coach will select one of the remaining four players in the game to attempt the free throws.\n3. His coach will pick the substitute, who may not be replaced until the ball is legally touched by a player on the court. (EXCEPTION: Rule 3, Section V(e).)\n4. The injured player may not return to the game. (EXCEPTION: Rule 9, Section II(a)(2).)\n5. A player will be ejected if he commits two flagrant fouls in the same game.",
+    "context": [
+      {
+        "id": "rule_12_sec_iv_a",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Flagrant Foul (a): If contact committed against a player, with or without the ball, is interpreted to be unnecessary, a flagrant foul—penalty (1) will be assessed. A personal foul is charged to the offender and a team foul is charged to the team. PENALTY: (1) Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended. (2) If the offended player is injured and unable to attempt his free throws, his coach will select one of the remaining four players in the game to attempt the free throws. (3) His coach will pick the substitute, who may not be replaced until the ball is legally touched by a player on the court. (EXCEPTION: Rule 3, Section V(e).) (4) The injured player may not return to the game. (EXCEPTION: Rule 9, Section II(a)(2).) (5) A player will be ejected if he commits two flagrant fouls in the same game.",
+        "score": 0.6366896629333496
+      },
+      {
+        "id": "rule_12_sec_vii_g",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Fines (g): Any player who is assessed a flagrant foul—penalty (2) must be ejected and will be fined a minimum of $2,000. The incident will be reported to the League Office. B. Personal Foul",
+        "score": 0.628899097442627
+      },
+      {
+        "id": "rule_12_sec_iv_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Flagrant Foul (b): If contact committed against a player, with or without the ball, is interpreted to be unnecessary and excessive, a flagrant foul—penalty (2) will be assessed. A personal foul is charged to the offender and a team foul is charged to the team. PENALTY: (1) Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended. (2) If the offended player is injured and unable to attempt his free throws, his coach will select a substitute and any player from the team is eligible to attempt the free throws. (3) This substitute may not be replaced until the ball is legally touched by a player on the court. (EXCEPTION: Rule 3, Section V(e).) (4) The injured player may return to the game at any time after the free throws are attempted. (5) This is an unsportsmanlike act and the offender is ejected.",
+        "score": 0.6263930201530457
+      },
+      {
+        "id": "rule_4_sec_iv_f",
+        "text": "Rule 4 DEFINITIONS, Section Fouls (f): A flagrant foul is unnecessary and/or excessive contact committed by a player against an opponent whether the ball is dead or alive.",
+        "score": 0.6157851219177246
+      },
+      {
+        "id": "rule_12_sec_xi_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Transition Take Foul (b): In the event that the personal foul committed is a flagrant or punching foul, the play shall be administered as follows: (1) A personal foul and team foul shall be assessed and the free throw shooter shall be awarded two free throw attempts. The free throws may be attempted by any player in the game at the time the flagrant foul was committed. (2) If a flagrant foul—penalty (1) is assessed and the offended player is unable to participate in the game, the substitute will be selected by his coach. The two free throws may be attempted by any of the four remaining players in the game. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game. (3) If a flagrant foul—penalty (2) or punching foul is assessed and the offended player is unable to attempt his free throws because of injury, the substitute will be selected by his coach. The two free throws may be attempted by the substitute or any of the four remaining players in the game. If the offended player is unable to attempt his free throws as a result of being ejected, any of the four remaining players may attempt the free throws. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game.",
+        "score": 0.5998533964157104
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is entirely supported by the context and directly addresses the question."
+  },
+  {
+    "question": "What is a flagrant foul penalty 2?",
+    "reference_answer": "If contact committed against a player is interpreted to be unnecessary and excessive, a flagrant foul penalty 2 will be assessed. Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended.",
+    "naiveRAG_answer": "A flagrant foul penalty 2 is assessed when contact committed against a player, with or without the ball, is interpreted to be unnecessary and excessive. The offender is charged with a personal foul and the team is charged with a team foul. The offender is ejected and fined a minimum of $2,000. The offended team is awarded two free throws and the ball on either side of the court at the free throw line extended. If the offended player is injured and unable to attempt his free throws, his coach will select a substitute and any player from the team is eligible to attempt the free throws. The substitute may not be replaced until the ball is legally touched by a player on the court. The injured player may return to the game at any time after the free throws are attempted.",
+    "context": [
+      {
+        "id": "rule_12_sec_iv_a",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Flagrant Foul (a): If contact committed against a player, with or without the ball, is interpreted to be unnecessary, a flagrant foul—penalty (1) will be assessed. A personal foul is charged to the offender and a team foul is charged to the team. PENALTY: (1) Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended. (2) If the offended player is injured and unable to attempt his free throws, his coach will select one of the remaining four players in the game to attempt the free throws. (3) His coach will pick the substitute, who may not be replaced until the ball is legally touched by a player on the court. (EXCEPTION: Rule 3, Section V(e).) (4) The injured player may not return to the game. (EXCEPTION: Rule 9, Section II(a)(2).) (5) A player will be ejected if he commits two flagrant fouls in the same game.",
+        "score": 0.6501556038856506
+      },
+      {
+        "id": "rule_12_sec_iv_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Flagrant Foul (b): If contact committed against a player, with or without the ball, is interpreted to be unnecessary and excessive, a flagrant foul—penalty (2) will be assessed. A personal foul is charged to the offender and a team foul is charged to the team. PENALTY: (1) Two free throws shall be attempted and the ball awarded to the offended team on either side of the court at the free throw line extended. (2) If the offended player is injured and unable to attempt his free throws, his coach will select a substitute and any player from the team is eligible to attempt the free throws. (3) This substitute may not be replaced until the ball is legally touched by a player on the court. (EXCEPTION: Rule 3, Section V(e).) (4) The injured player may return to the game at any time after the free throws are attempted. (5) This is an unsportsmanlike act and the offender is ejected.",
+        "score": 0.6469753980636597
+      },
+      {
+        "id": "rule_12_sec_vii_g",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Fines (g): Any player who is assessed a flagrant foul—penalty (2) must be ejected and will be fined a minimum of $2,000. The incident will be reported to the League Office. B. Personal Foul",
+        "score": 0.6427475214004517
+      },
+      {
+        "id": "rule_12_sec_xi_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Transition Take Foul (b): In the event that the personal foul committed is a flagrant or punching foul, the play shall be administered as follows: (1) A personal foul and team foul shall be assessed and the free throw shooter shall be awarded two free throw attempts. The free throws may be attempted by any player in the game at the time the flagrant foul was committed. (2) If a flagrant foul—penalty (1) is assessed and the offended player is unable to participate in the game, the substitute will be selected by his coach. The two free throws may be attempted by any of the four remaining players in the game. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game. (3) If a flagrant foul—penalty (2) or punching foul is assessed and the offended player is unable to attempt his free throws because of injury, the substitute will be selected by his coach. The two free throws may be attempted by the substitute or any of the four remaining players in the game. If the offended player is unable to attempt his free throws as a result of being ejected, any of the four remaining players may attempt the free throws. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game.",
+        "score": 0.6315242052078247
+      },
+      {
+        "id": "rule_12_sec_x_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Away-From-The-Play Foul (b): In the event that the personal foul committed is a flagrant or punching foul, the play shall be administered as follows: (1) A personal foul and team foul shall be assessed and the free throw shooter shall be awarded two free throw attempts. The free throws may be attempted by any player in the game at the time the flagrant foul was committed. (2) If a flagrant foul—penalty (1) is assessed and the offended player is unable to participate in the game, the substitute will be selected by his coach. The two free throws may be attempted by any of the four remaining players in the game. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game. (3) If a flagrant foul—penalty (2) or punching foul is assessed and the offended player is unable to attempt his free throws because of injury, the substitute will be selected by his coach. The two free throws may be attempted by the substitute or any of the four remaining players in the game. If the offended player is unable to attempt his free throws as a result of being ejected, any of the four remaining players may attempt the free throws. The ball will be awarded to the offended team at the free throw line extended in the frontcourt. The injured player may return to the game.",
+        "score": 0.6242853999137878
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is entirely supported by the context, directly addressing the question with accurate and detailed information."
+  },
+  {
+    "question": "How many timeouts can a team use in the fourth quarter?",
+    "reference_answer": "Each team is limited to no more than four timeouts in the fourth period.",
+    "naiveRAG_answer": "Each team is limited to no more than four (4) timeouts in the fourth period.",
+    "context": [
+      {
+        "id": "rule_5_sec_vi_a",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (a): Each team is entitled to seven (7) charged timeouts during regulation play. Each team is limited to no more than four (4) timeouts in the fourth period. Each team will be limited to two (2) team timeouts after the later of (i) the three-minute mark of the fourth period or (ii) the conclusion of the second mandatory timeout of the fourth period.",
+        "score": 0.7075238823890686
+      },
+      {
+        "id": "rule_5_sec_vi_g",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (g): If a timeout is charged to the offensive team during the last two minutes of the fourth period and/or last two minutes of any overtime period and (1) the ball is out-of-bounds in the backcourt (except for a suspension of play after the team had advanced the ball), or (2) after securing the ball from a rebound in the backcourt and prior to any advance of the ball, or (3) after the offensive team secures the ball from a change of possession in the backcourt and prior to any advance of the ball, the timeout should be granted. Upon resumption of play, the team granted the timeout shall have the option of putting the ball into play at the 28’ hash mark in the frontcourt or at the designated spot out-of-bounds. If the ball is put into play at the hash mark, the ball may be passed into either the frontcourt or backcourt. If it is passed into the backcourt, the team will receive a new 8-second count. However, once the ball is (1) thrown in from out-of-bounds, or (2) dribbled or passed after receiving it from a rebound or a change of possession, the timeout shall be granted, and, upon resumption of play, the ball shall be in-bounded on the sideline where play was interrupted. In order for the option to be available following these conditions, a second timeout must be granted to the offensive team. The time on the game clock and the shot clock shall remain as when the timeout was called.",
+        "score": 0.5941228270530701
+      },
+      {
+        "id": "rule_5_sec_vi_c",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (c): There must be two mandatory timeouts in each period. If neither team has taken a timeout prior to 6:59 of the period, it shall be mandatory for the Official Scorer to take it at the first dead ball and charge it to the home team, or for a neutral site game, the second team named in the official schedule. If no subsequent timeouts are taken prior to 2:59, it shall be mandatory for the Official Scorer to take it and charge it to the team not previously charged. The Official Scorer shall notify a team when it has been charged with a mandatory time-out. Mandatory timeouts shall be 2:45 for local games and 3:15 for national games. Any additional team timeouts in a period beyond those which are mandatory shall be 1:15. No mandatory timeout may be charged during an official’s suspension-of-play. EXCEPTION: Suspension-of-play for Infection Control. See Comments on the Rules, Section II(N).",
+        "score": 0.5391256213188171
+      },
+      {
+        "id": "rule_5_sec_vi_d",
+        "text": "Rule 5 SCORING AND TIMING, Section Timeouts – Mandatory/Team (d): A request for a timeout by a player in the game or the head coach shall be granted only when the ball is dead or in control of a player on the team making the request. A request at any other time shall be ignored.",
+        "score": 0.5342344641685486
+      },
+      {
+        "id": "rule_5_sec_iv",
+        "text": "Rule 5 SCORING AND TIMING, Section Tie Score—Overtime: If the score is tied at the end of the fourth period, play shall resume in 2:30 without change of baskets for any of the overtime periods required.",
+        "score": 0.5315343737602234
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is directly supported by the context, which states that each team is limited to no more than four (4) timeouts in the fourth period."
+  },
+  {
+    "question": "What is a free throw in basketball?",
+    "reference_answer": "A free throw is the privilege given a player to score one point by an unhindered attempt for the goal from a position directly behind the free throw line.",
+    "naiveRAG_answer": "A free throw is the privilege given to a player to score one point by an unhindered attempt for the goal from a position directly behind the free throw line. This attempt must be made within 10 seconds.",
+    "context": [
+      {
+        "id": "rule_4_sec_v",
+        "text": "Rule 4 DEFINITIONS, Section Free Throw: A free throw is the privilege given a player to score one point by an unhindered attempt for the goal from a position directly behind the free throw line. This attempt must be made within 10 seconds.",
+        "score": 0.7303167581558228
+      },
+      {
+        "id": "rule_9_sec_i_a",
+        "text": "Rule 9 FREE THROWS AND PENALTIES, Section Positions and Violations (a): When a free throw is awarded, an official shall put the ball in play by delivering it to the free throw shooter. The shooter shall be above the free throw line and within the upper half of the free throw circle. He shall attempt the free throw within 10 seconds of controlling the ball in such a way that the ball enters the basket or touches the ring. PENALTY: If there is a violation and the free throw attempt is to remain in play, the opposing team shall inbound on either sideline at the free throw line extended. If both teams commit a violation during this free throw, a jump ball shall be administered at midcourt between any two opponents in the game. If the opponent’s violation is disconcertion, then a substitute free throw shall be awarded. If there is a violation and the free throw attempt is not to remain in play, then play will continue from that point. If an opponent also commits a violation (double violation), then play will also continue from that point. If the opponent’s violation is disconcertion, then a substitute free throw shall be awarded.",
+        "score": 0.6232138276100159
+      },
+      {
+        "id": "rule_9_sec_i_b",
+        "text": "Rule 9 FREE THROWS AND PENALTIES, Section Positions and Violations (b): The free throw shooter may not step over the plane of the free throw line until the ball touches the basket ring, backboard, or the free throw ends. PENALTY: This is a violation by the shooter on all free throw attempts and no point can be scored. If there is a violation and the free throw attempt is to remain in play, the opposing team shall inbound on either sideline at the free throw line extended. If both teams commit a violation during this free throw, a jump ball shall be administered at midcourt between any two opponents in the game. If there is a violation and the free throw attempt is not to remain in play, then play will continue from that point. If an opponent also commits a violation (double violation), then play will also continue from that point.",
+        "score": 0.6129411458969116
+      },
+      {
+        "id": "rule_9_sec_i_c",
+        "text": "Rule 9 FREE THROWS AND PENALTIES, Section Positions and Violations (c): The free throw shooter shall not purposely fake a free throw attempt. PENALTY: This is a violation by the shooter on all free throw attempts and a double violation should not be called if an opponent violates any free throw rules. If the free throw attempt is to remain in play, the opposing team shall inbound on either sideline at the free throw line extended. If the free throw attempt is not to remain in play, then play will continue from that point.",
+        "score": 0.6011489629745483
+      },
+      {
+        "id": "rule_9_sec_i_f",
+        "text": "Rule 9 FREE THROWS AND PENALTIES, Section Positions and Violations (f): During all free throw attempts, no opponent in the game shall disconcert the shooter once the ball is placed at his disposal. The following are acts of disconcertion: (1) Raising his arms when positioned on the lane line on a free throw which will not remain in play, (2) Waving his arms or making a sudden movement when in the visual field of the shooter during any free throw attempt, (3) Talking to the free throw shooter or talking in a loud disruptive manner during any free throw attempt. (4) Entering the lane and continuing to move during any free throw attempt. PENALTY: No penalty is assessed if the free throw is successful. A substitute free throw will be administered if the attempt is unsuccessful.",
+        "score": 0.5829681754112244
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is entirely supported by the context, directly addressing the question with a clear and concise explanation of a free throw in basketball."
+  },
+  {
+    "question": "When must a player be ejected from an NBA game?",
+    "reference_answer": "A player must be ejected for a punching foul, a fighting foul, deliberately entering the stands, a flagrant foul penalty 2, a second flagrant foul penalty 1, or participation in the game when not on the team's active list.",
+    "naiveRAG_answer": "A player must be ejected from an NBA game for:\n- A punching foul\n- A fighting foul\n- Technical foul for an attempted punch or swing with no contact or a thrown elbow toward an opponent above shoulder level with no contact\n- Deliberately entering the stands other than as a continuance of play\n- Flagrant foul penalty (2)\n- Second flagrant foul penalty (1)\n- Participation in the game when not on team’s active list\n- Throwing a punch, whether it connects or not",
+    "context": [
+      {
+        "id": "rule_12_sec_vii_c",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Fines (c): During an altercation, all players not participating in the game must remain in the immediate vicinity of their bench. Violators may be subject to a one-game suspension and fined up to $100,000. In determining whether to impose discipline on a player for leaving the bench area in connection with an altercation during a game, the NBA will take into account the following factors, as well as any other relevant facts and circumstances: (i) the distance the player traveled from his team’s bench, and (ii) the extent to which he entered the immediate proximity of the altercation. A team must have a minimum of eight players dressed and eligible and able to play in each preseason and regular season game and nine in each Play-In and playoff game. In the event that multiple players on a team are suspended for leaving the bench, and if necessary in order for the team to have the requisite number of players eligible and able to play in a game, the suspensions will be served over multiple games (e.g., with some players suspended for the first game following the altercation and other players suspended for the second game following the altercation), with the players serving their suspensions alphabetically, according to the first letters of their last names.",
+        "score": 0.6372429728507996
+      },
+      {
+        "id": "rule_12_sec_v_l",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Conduct (l): A player, coach, trainer, or other team bench person must be ejected for: (1) A punching foul (2) A fighting foul (3) Technical foul for an attempted punch or swing with no contact or a thrown elbow toward an opponent above shoulder level with no contact (4) Deliberately entering the stands other than as a continuance of play (5) Flagrant foul penalty (2) (6) Second flagrant foul penalty (1) (7) Participation in the game when not on team’s active list",
+        "score": 0.6078354120254517
+      },
+      {
+        "id": "rule_3_sec_i_b",
+        "text": "Rule 3 PLAYERS, SUBSTITUTES, AND COACHES, Section Team (b): In the event that there are only five eligible players remaining and one of these players is injured and must leave the game or is ejected, he must be replaced by the last player who was disqualified by reason of receiving six personal fouls. Each subsequent requirement to replace an injured or ejected player will be treated in this inverse order. Any such re-entry into a game by a disqualified player shall be penalized by a technical foul.",
+        "score": 0.598251223564148
+      },
+      {
+        "id": "rule_12_sec_ix_b",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Punching Fouls (b): Any player who throws a punch, whether it connects or not, has committed an unsportsmanlike act. He will be ejected following confirmation during review by instant replay and suspended for a minimum of one game.",
+        "score": 0.5953264236450195
+      },
+      {
+        "id": "rule_12_sec_v_k",
+        "text": "Rule 12 FOULS AND PENALTIES, Section Conduct (k): A technical foul, unsportsmanlike act, or flagrant foul must be called for a participant to be ejected. EXCEPTION: Rule 12A, Section V(l)(4)",
+        "score": 0.5911192297935486
+      }
+    ],
+    "faithfulness": 5,
+    "answer_relevance": 5,
+    "context_relevance": 5,
+    "reasoning": "The answer is entirely supported by the context, addressing all the specific criteria for ejection, and the context is directly relevant to the question."
+  }
+]
